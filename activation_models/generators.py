@@ -1,3 +1,7 @@
+#load the activations of models from pytorch, vvs, taskonomy, etc.
+#get_activation_models used in scripts/compute_eigenspectra, fit_encoding_models, 
+# - taskonomy import should work on lab server
+
 import os
 
 import tensorflow as tf

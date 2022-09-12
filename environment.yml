@@ -1,0 +1,9 @@
+name: encoder-dimensionality
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - git+https://github.com/brain-score/brain-score
+    - git+https://github.com/brain-score/model-tools
+    - git+https://github.com/brain-score/candidate_models
+    - jupyterlab

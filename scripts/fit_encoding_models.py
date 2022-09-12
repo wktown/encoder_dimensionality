@@ -1,3 +1,5 @@
+#compute the encoding performance of the models
+
 import argparse
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)

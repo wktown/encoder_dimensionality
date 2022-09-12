@@ -1,3 +1,5 @@
+#compute the effective dimensionality of the models
+
 import argparse
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
