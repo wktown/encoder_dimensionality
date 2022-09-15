@@ -1,4 +1,6 @@
-#compute the encoding performance of the models
+#compute the encoding performance of the models (no pooling?)
+#benchmarks majajhong and object2vec, brainscore.benchmarks
+#uses get_activation_mdeols (generators.py), custom_tools.hooks for GlobalMaxPool2d
 
 import argparse
 import warnings
@@ -13,7 +15,7 @@ from model_tools.activations.pca import LayerPCA
 from model_tools.brain_transformation.neural import LayerScores
 from activation_models.generators import get_activation_models
 from custom_model_tools.hooks import GlobalMaxPool2d
-from utils import timed, id_to_properties
+from utils import timed, id_to_propertiesd
 
 
 @timed

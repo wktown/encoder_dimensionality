@@ -1,4 +1,5 @@
 #compute the effective dimensionality of the models
+#calls generators.py's get_activation_models function, custom_tools.eigenspectrum & image_transform
 
 import argparse
 import warnings

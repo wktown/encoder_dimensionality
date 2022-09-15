@@ -1,3 +1,6 @@
+#compute performance on imagenet-21k dataset, get dataset from Eric
+#custom_tools.n_shot_learning (& generators get_activation_models)
+
 import argparse
 import warnings
 
