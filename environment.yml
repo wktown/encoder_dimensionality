@@ -5,5 +5,13 @@ dependencies:
   - pip:
     - git+https://github.com/brain-score/brain-score
     - git+https://github.com/brain-score/model-tools
-    - git+https://github.com/brain-score/candidate_models
+    - git+https://github.com/wktown/candidate_models
+    - git+https://github.com/BonnerLab/bonnerlab-brainscore
     - jupyterlab
+
+variables:
+  TORCH_HOME: "/data/shared/torch"
+  RESULTCACHING_HOME: "/data/shared/.cache/brainscore/result-caching"
+  MT_HOME: "/data/shared/.cache/brainscore/model-tools"
+  BRAINIO_HOME: "/data/shared/.cache/brainscore/brainio"
+  CM_HOME: "/data/shared/.cache/brainscore/candidate-models"

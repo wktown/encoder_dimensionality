@@ -2,18 +2,23 @@
 #get_activation_models used in scripts/compute_eigenspectra, fit_encoding_models, 
 # - taskonomy import should work on lab server
 
+#* make sure import from candidate_models and model_tools is set to current task*
+# - for classification performance brainscore,candidate_models, and model_tools will not be installed in the environment
+
 import os
 
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 import torch
 from torchvision.models import resnet18, resnet50
-from candidate_models.base_models.unsupervised_vvs import ModelBuilder
-from model_tools.activations.pytorch import PytorchWrapper, load_preprocess_images
+#from candidate_models.base_models.unsupervised_vvs import ModelBuilder
+from classification_custom.candidate_models import ModelBuilder
+#from model_tools.activations.pytorch import PytorchWrapper, load_preprocess_images
+from classification_custom.model_tools import PytorchWrapper, load_preprocess_images
 from visualpriors.taskonomy_network import TASKONOMY_PRETRAINED_URLS, TaskonomyEncoder
 from functools import partial
 from utils import properties_to_id
-from counter_example.train_imagenet import LitResnet
+#from counter_example.train_imagenet import LitResnet
 
 
 resnet18_pt_layers = [f'layer1.{i}.relu' for i in range(2)] + \
@@ -29,7 +34,7 @@ resnet50_pt_layers = [f'layer1.{i}.relu' for i in range(3)] + \
 resnet18_tf_layers = [f'encode_{i}' for i in range(2, 10)]
 
 
-def get_activation_models(pytorch=True, vvs=True, taskonomy=True, pytorch_hub=True):
+def get_activation_models(pytorch=True, vvs=False, taskonomy=False, pytorch_hub=False):
     if pytorch:
         for model, layers in pytorch_models():
             yield model, layers
@@ -45,22 +50,22 @@ def get_activation_models(pytorch=True, vvs=True, taskonomy=True, pytorch_hub=Tr
 
 
 def pytorch_models():
-    model = resnet18(pretrained=False)
+    model = resnet18(weights=None)
     identifier = properties_to_id('ResNet18', 'None', 'Untrained', 'PyTorch')
     model = wrap_pt(model, identifier)
     yield model, resnet18_pt_layers
 
-    model = resnet50(pretrained=False)
+    model = resnet50(weights=None)
     identifier = properties_to_id('ResNet50', 'None', 'Untrained', 'PyTorch')
     model = wrap_pt(model, identifier)
     yield model, resnet50_pt_layers
 
-    model = resnet18(pretrained=True)
+    model = resnet18(weights='DEFAULT')
     identifier = properties_to_id('ResNet18', 'Object Classification', 'Supervised', 'PyTorch')
     model = wrap_pt(model, identifier)
     yield model, resnet18_pt_layers
 
-    model = resnet50(pretrained=True)
+    model = resnet50(weights='DEFAULT')
     identifier = properties_to_id('ResNet50', 'Object Classification', 'Supervised', 'PyTorch')
     model = wrap_pt(model, identifier)
     yield model, resnet50_pt_layers
@@ -74,7 +79,8 @@ def pytorch_hub_models():
 
 
 def vvs_models():
-    configs = [('resnet18-supervised', 'Object Classification', 'Supervised'),
+    configs = [('resnet18-simclr', 'SimCLR', 'Self-Supervised'),
+               ('resnet18-supervised', 'Object Classification', 'Supervised'),
                ('resnet18-la', 'Local Aggregation', 'Self-Supervised'),
                ('resnet18-ir', 'Instance Recognition', 'Self-Supervised'),
                ('resnet18-ae', 'Auto-Encoder', 'Self-Supervised'),
@@ -82,7 +88,6 @@ def vvs_models():
                ('resnet18-color', 'Colorization', 'Self-Supervised'),
                ('resnet18-rp', 'Relative Position', 'Self-Supervised'),
                ('resnet18-depth', 'Depth Prediction', 'Supervised'),
-               ('resnet18-simclr', 'SimCLR', 'Self-Supervised'),
                ('resnet18-deepcluster', 'Deep Cluster', 'Self-Supervised'),
                ('resnet18-cmc', 'Contrastive Multiview Coding', 'Self-Supervised')]
 

@@ -1,7 +1,8 @@
 from __future__ import annotations
 import logging
 import os.path
-from result_caching import store_dict
+#from result_caching import store_dict
+from classification_custom.result_caching import store_dict
 from sklearn.metrics import top_k_accuracy_score, label_ranking_average_precision_score, log_loss
 from sklearn.metrics.pairwise import pairwise_distances
 from sklearn.preprocessing import label_binarize
@@ -13,8 +14,11 @@ from scipy.special import softmax
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-from model_tools.activations.core import flatten
-from model_tools.utils import fullname
+#from model_tools.activations.core import flatten
+from classification_custom.model_tools import flatten
+import inspect
+#from model_tools.utils import fullname
+from classification_custom.model_tools import fullname
 from custom_model_tools.hooks import GlobalMaxPool2d, RandomProjection
 from utils import id_to_properties, get_imagenet_val
 from typing import List, Dict

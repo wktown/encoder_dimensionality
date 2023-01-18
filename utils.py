@@ -7,8 +7,10 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import h5py
 from PIL import Image
-from model_tools.utils import fullname, s3
 
+#from model_tools.utils import fullname, s3
+from classification_custom.model_tools import fullname
+from classification_custom import modeltools_s3
 
 def properties_to_id(architecture, task, kind, source):
     identifier = f'architecture:{architecture}|task:{task}|kind:{kind}|source:{source}'

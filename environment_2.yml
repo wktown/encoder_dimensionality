@@ -1,0 +1,26 @@
+name: classification
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - xarray
+    - scikit-learn
+    - tqdm
+    - seaborn
+    - jupyterlab
+    - torch
+    - torchvision
+    - tensorflow==1.15.0
+    - git+https://github.com/wktown/unsup_vvs.git
+    - protobuf==3.20
+    - netCDF4
+    - boto3
+
+variables:
+  TORCH_HOME: "/data/shared/torch"
+  RESULTCACHING_HOME: "/data/shared/.cache/brainscore/result-caching"
+  MT_HOME: "/data/shared/.cache/brainscore/model-tools"
+  BRAINIO_HOME: "/data/shared/.cache/brainscore/brainio"
+  CM_HOME: "/data/shared/.cache/brainscore/candidate-models"

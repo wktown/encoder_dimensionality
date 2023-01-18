@@ -4,10 +4,14 @@ from tqdm import tqdm
 import numpy as np
 import torch
 from torch.nn import functional as F
-from model_tools.activations.core import change_dict, flatten
-from model_tools.activations.pca import _get_imagenet_val
-from model_tools.utils import fullname
-from result_caching import store_dict
+#from model_tools.activations.core import change_dict, flatten
+from classification_custom.model_tools import change_dict, flatten
+#from model_tools.activations.pca import _get_imagenet_val
+from classification_custom.model_tools import _get_imagenet_val
+#from model_tools.utils import fullname
+from classification_custom.model_tools import fullname
+#from result_caching import store_dict
+from classification_custom.result_caching import store_dict
 from custom_model_tools.zca import ZCA
 
 
