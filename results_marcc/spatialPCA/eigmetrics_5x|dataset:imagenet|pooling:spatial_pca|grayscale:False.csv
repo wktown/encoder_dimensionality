@@ -1,0 +1,633 @@
+,layer,effective dimensionality,80% variance,alpha,architecture,task,kind,source
+0,layer1.0.relu,245.73090426055683,569.0,0.652580129835965,ResNet18,Object Classification,Supervised,PyTorch
+1,layer1.1.relu,630.4806591837004,640.0,0.4464498243315886,ResNet18,Object Classification,Supervised,PyTorch
+2,layer2.0.relu,504.28258507233903,616.0,0.5074444287894045,ResNet18,Object Classification,Supervised,PyTorch
+3,layer2.1.relu,616.0093056378445,631.0,0.4495225609133259,ResNet18,Object Classification,Supervised,PyTorch
+4,layer3.0.relu,330.8602904754563,544.0,0.604332648158234,ResNet18,Object Classification,Supervised,PyTorch
+5,layer3.1.relu,332.68196639933814,564.0,0.5817342832843163,ResNet18,Object Classification,Supervised,PyTorch
+6,layer4.0.relu.position0x0,44.896907415572734,123.0,1.0114111044835872,ResNet18,Object Classification,Supervised,PyTorch
+7,layer4.0.relu.position0x1,103.17617390326524,195.0,0.826798558596636,ResNet18,Object Classification,Supervised,PyTorch
+8,layer4.0.relu.position0x2,113.12132722189318,202.0,0.7748458613791227,ResNet18,Object Classification,Supervised,PyTorch
+9,layer4.0.relu.position0x3,110.70942286765222,202.0,0.779676099804733,ResNet18,Object Classification,Supervised,PyTorch
+10,layer4.0.relu.position0x4,113.5531713576888,203.0,0.7703482489309283,ResNet18,Object Classification,Supervised,PyTorch
+11,layer4.0.relu.position0x5,106.26754324392304,200.0,0.8075248696087358,ResNet18,Object Classification,Supervised,PyTorch
+12,layer4.0.relu.position0x6,55.36964997678011,135.0,0.9629881763650076,ResNet18,Object Classification,Supervised,PyTorch
+13,layer4.0.relu.position1x0,99.24496431299686,192.0,0.8019241336473575,ResNet18,Object Classification,Supervised,PyTorch
+14,layer4.0.relu.position1x1,114.96104253246838,220.0,0.7622624951134961,ResNet18,Object Classification,Supervised,PyTorch
+15,layer4.0.relu.position1x2,101.95880950926184,218.0,0.7692502601177899,ResNet18,Object Classification,Supervised,PyTorch
+16,layer4.0.relu.position1x3,90.6449671504628,211.0,0.7890740648513136,ResNet18,Object Classification,Supervised,PyTorch
+17,layer4.0.relu.position1x4,103.2279752260448,220.0,0.7589369906799219,ResNet18,Object Classification,Supervised,PyTorch
+18,layer4.0.relu.position1x5,114.28790860588336,221.0,0.7678624206327206,ResNet18,Object Classification,Supervised,PyTorch
+19,layer4.0.relu.position1x6,102.71670122901592,194.0,0.8142423608938959,ResNet18,Object Classification,Supervised,PyTorch
+20,layer4.0.relu.position2x0,112.55304517818752,203.0,0.7605626230817716,ResNet18,Object Classification,Supervised,PyTorch
+21,layer4.0.relu.position2x1,120.17762715503808,229.0,0.740109122019361,ResNet18,Object Classification,Supervised,PyTorch
+22,layer4.0.relu.position2x2,107.1383360428364,220.0,0.7545087551534623,ResNet18,Object Classification,Supervised,PyTorch
+23,layer4.0.relu.position2x3,93.52703141768755,208.0,0.7870284581296235,ResNet18,Object Classification,Supervised,PyTorch
+24,layer4.0.relu.position2x4,100.52278830028536,217.0,0.76254724216944,ResNet18,Object Classification,Supervised,PyTorch
+25,layer4.0.relu.position2x5,118.424430273633,228.0,0.7442571611735592,ResNet18,Object Classification,Supervised,PyTorch
+26,layer4.0.relu.position2x6,118.77319837543656,208.0,0.7510946282218154,ResNet18,Object Classification,Supervised,PyTorch
+27,layer4.0.relu.position3x0,117.9892882352822,207.0,0.7480725542346627,ResNet18,Object Classification,Supervised,PyTorch
+28,layer4.0.relu.position3x1,141.46067207149665,241.0,0.7066733725533507,ResNet18,Object Classification,Supervised,PyTorch
+29,layer4.0.relu.position3x2,128.70049760597482,232.0,0.7352231873766362,ResNet18,Object Classification,Supervised,PyTorch
+30,layer4.0.relu.position3x3,98.18455928074616,212.0,0.7925951381224835,ResNet18,Object Classification,Supervised,PyTorch
+31,layer4.0.relu.position3x4,117.57083832505538,225.0,0.7540979767840217,ResNet18,Object Classification,Supervised,PyTorch
+32,layer4.0.relu.position3x5,131.66658795156525,238.0,0.7199125659407373,ResNet18,Object Classification,Supervised,PyTorch
+33,layer4.0.relu.position3x6,121.97578359964628,213.0,0.7432899139148229,ResNet18,Object Classification,Supervised,PyTorch
+34,layer4.0.relu.position4x0,114.96527424542712,207.0,0.7530209807462793,ResNet18,Object Classification,Supervised,PyTorch
+35,layer4.0.relu.position4x1,140.2651664761437,241.0,0.7098883960340425,ResNet18,Object Classification,Supervised,PyTorch
+36,layer4.0.relu.position4x2,139.21275168455264,235.0,0.7229295767186403,ResNet18,Object Classification,Supervised,PyTorch
+37,layer4.0.relu.position4x3,125.8446878501294,225.0,0.7446165184240751,ResNet18,Object Classification,Supervised,PyTorch
+38,layer4.0.relu.position4x4,137.92599040268553,234.0,0.719734530673138,ResNet18,Object Classification,Supervised,PyTorch
+39,layer4.0.relu.position4x5,139.29154172769438,241.0,0.7060793736422538,ResNet18,Object Classification,Supervised,PyTorch
+40,layer4.0.relu.position4x6,122.027141783283,213.0,0.744569054568281,ResNet18,Object Classification,Supervised,PyTorch
+41,layer4.0.relu.position5x0,108.82092043820252,204.0,0.7709514997486938,ResNet18,Object Classification,Supervised,PyTorch
+42,layer4.0.relu.position5x1,133.5603832450017,234.0,0.7187572653187381,ResNet18,Object Classification,Supervised,PyTorch
+43,layer4.0.relu.position5x2,136.01179412754007,234.0,0.7301753706795516,ResNet18,Object Classification,Supervised,PyTorch
+44,layer4.0.relu.position5x3,132.68940438070888,231.0,0.7308633158122367,ResNet18,Object Classification,Supervised,PyTorch
+45,layer4.0.relu.position5x4,138.9165818022714,235.0,0.724679958237966,ResNet18,Object Classification,Supervised,PyTorch
+46,layer4.0.relu.position5x5,133.4896106603097,235.0,0.7172369951432203,ResNet18,Object Classification,Supervised,PyTorch
+47,layer4.0.relu.position5x6,115.29065414226106,208.0,0.7610490032128455,ResNet18,Object Classification,Supervised,PyTorch
+48,layer4.0.relu.position6x0,66.1040532544789,144.0,0.9584500199091736,ResNet18,Object Classification,Supervised,PyTorch
+49,layer4.0.relu.position6x1,110.16848867507132,199.0,0.8058614779274319,ResNet18,Object Classification,Supervised,PyTorch
+50,layer4.0.relu.position6x2,119.996920203823,209.0,0.7731305752518073,ResNet18,Object Classification,Supervised,PyTorch
+51,layer4.0.relu.position6x3,120.4274709762378,210.0,0.7724285615667973,ResNet18,Object Classification,Supervised,PyTorch
+52,layer4.0.relu.position6x4,122.41378221053844,211.0,0.7678231964690974,ResNet18,Object Classification,Supervised,PyTorch
+53,layer4.0.relu.position6x5,116.51719616174324,206.0,0.7855105843426966,ResNet18,Object Classification,Supervised,PyTorch
+54,layer4.0.relu.position6x6,71.31002554156836,148.0,0.9227670016839574,ResNet18,Object Classification,Supervised,PyTorch
+55,layer4.1.relu.position0x0,52.35076509218624,138.0,0.9125152482322562,ResNet18,Object Classification,Supervised,PyTorch
+56,layer4.1.relu.position0x1,66.00612062858976,153.0,0.833830844026279,ResNet18,Object Classification,Supervised,PyTorch
+57,layer4.1.relu.position0x2,65.88958180694452,156.0,0.8064242503341262,ResNet18,Object Classification,Supervised,PyTorch
+58,layer4.1.relu.position0x3,68.63752603982236,156.0,0.799914551117418,ResNet18,Object Classification,Supervised,PyTorch
+59,layer4.1.relu.position0x4,68.1419974935299,157.0,0.8041004531734985,ResNet18,Object Classification,Supervised,PyTorch
+60,layer4.1.relu.position0x5,67.62889165788835,153.0,0.832678938830601,ResNet18,Object Classification,Supervised,PyTorch
+61,layer4.1.relu.position0x6,54.4596537288808,138.0,0.9102765307736354,ResNet18,Object Classification,Supervised,PyTorch
+62,layer4.1.relu.position1x0,66.19913117065641,154.0,0.8371386072538911,ResNet18,Object Classification,Supervised,PyTorch
+63,layer4.1.relu.position1x1,96.2716985287763,163.0,0.7634722406893795,ResNet18,Object Classification,Supervised,PyTorch
+64,layer4.1.relu.position1x2,104.63375253912012,162.0,0.7422987579005719,ResNet18,Object Classification,Supervised,PyTorch
+65,layer4.1.relu.position1x3,109.73883889890644,160.0,0.7399729414210067,ResNet18,Object Classification,Supervised,PyTorch
+66,layer4.1.relu.position1x4,109.2733005842558,163.0,0.7379071039809754,ResNet18,Object Classification,Supervised,PyTorch
+67,layer4.1.relu.position1x5,100.96773786094263,163.0,0.7590221424896441,ResNet18,Object Classification,Supervised,PyTorch
+68,layer4.1.relu.position1x6,72.64003757338223,155.0,0.8313466697709536,ResNet18,Object Classification,Supervised,PyTorch
+69,layer4.1.relu.position2x0,74.74584292597103,160.0,0.7994523378928466,ResNet18,Object Classification,Supervised,PyTorch
+70,layer4.1.relu.position2x1,118.19326858794632,165.0,0.7280171524946615,ResNet18,Object Classification,Supervised,PyTorch
+71,layer4.1.relu.position2x2,123.2934199090893,159.0,0.7238688558996028,ResNet18,Object Classification,Supervised,PyTorch
+72,layer4.1.relu.position2x3,124.46349683045206,157.0,0.7263843441030655,ResNet18,Object Classification,Supervised,PyTorch
+73,layer4.1.relu.position2x4,127.13406160134528,160.0,0.7182065854585366,ResNet18,Object Classification,Supervised,PyTorch
+74,layer4.1.relu.position2x5,123.37418509394904,165.0,0.7223929422581138,ResNet18,Object Classification,Supervised,PyTorch
+75,layer4.1.relu.position2x6,84.75151062215986,161.0,0.7876152521343684,ResNet18,Object Classification,Supervised,PyTorch
+76,layer4.1.relu.position3x0,84.44022811410194,161.0,0.7847879065475064,ResNet18,Object Classification,Supervised,PyTorch
+77,layer4.1.relu.position3x1,132.87421052194068,166.0,0.712116481049624,ResNet18,Object Classification,Supervised,PyTorch
+78,layer4.1.relu.position3x2,135.51741221501558,160.0,0.7094599378923356,ResNet18,Object Classification,Supervised,PyTorch
+79,layer4.1.relu.position3x3,133.8394880900732,157.0,0.7140626871572979,ResNet18,Object Classification,Supervised,PyTorch
+80,layer4.1.relu.position3x4,137.64005527590268,160.0,0.7060444443050823,ResNet18,Object Classification,Supervised,PyTorch
+81,layer4.1.relu.position3x5,134.6630518215066,165.0,0.7103909253729828,ResNet18,Object Classification,Supervised,PyTorch
+82,layer4.1.relu.position3x6,92.50973344372125,162.0,0.7742422236519314,ResNet18,Object Classification,Supervised,PyTorch
+83,layer4.1.relu.position4x0,83.64214129224929,161.0,0.7927805399483185,ResNet18,Object Classification,Supervised,PyTorch
+84,layer4.1.relu.position4x1,129.01597083894382,167.0,0.7201302322608151,ResNet18,Object Classification,Supervised,PyTorch
+85,layer4.1.relu.position4x2,134.24293979639216,162.0,0.7118145999176468,ResNet18,Object Classification,Supervised,PyTorch
+86,layer4.1.relu.position4x3,132.61456359726793,159.0,0.715770587373571,ResNet18,Object Classification,Supervised,PyTorch
+87,layer4.1.relu.position4x4,136.64838343393103,162.0,0.7072589228349381,ResNet18,Object Classification,Supervised,PyTorch
+88,layer4.1.relu.position4x5,131.0609248401894,166.0,0.7177575338277343,ResNet18,Object Classification,Supervised,PyTorch
+89,layer4.1.relu.position4x6,89.97219516287312,162.0,0.7829328686799337,ResNet18,Object Classification,Supervised,PyTorch
+90,layer4.1.relu.position5x0,73.26253416839914,156.0,0.8226297711816651,ResNet18,Object Classification,Supervised,PyTorch
+91,layer4.1.relu.position5x1,104.70562158918972,164.0,0.755014805012939,ResNet18,Object Classification,Supervised,PyTorch
+92,layer4.1.relu.position5x2,119.62226800495688,165.0,0.7306143498092345,ResNet18,Object Classification,Supervised,PyTorch
+93,layer4.1.relu.position5x3,122.61407921960128,163.0,0.728876544001787,ResNet18,Object Classification,Supervised,PyTorch
+94,layer4.1.relu.position5x4,121.94026434926762,165.0,0.7289085657231114,ResNet18,Object Classification,Supervised,PyTorch
+95,layer4.1.relu.position5x5,108.66338154840072,164.0,0.7512553074443022,ResNet18,Object Classification,Supervised,PyTorch
+96,layer4.1.relu.position5x6,78.5139873262074,157.0,0.8131372022788772,ResNet18,Object Classification,Supervised,PyTorch
+97,layer4.1.relu.position6x0,59.53277982504905,142.0,0.8876229113895648,ResNet18,Object Classification,Supervised,PyTorch
+98,layer4.1.relu.position6x1,74.89132762570111,156.0,0.8190730286014026,ResNet18,Object Classification,Supervised,PyTorch
+99,layer4.1.relu.position6x2,81.86918030281524,160.0,0.7892439138507079,ResNet18,Object Classification,Supervised,PyTorch
+100,layer4.1.relu.position6x3,84.14672787849902,160.0,0.7824643730823816,ResNet18,Object Classification,Supervised,PyTorch
+101,layer4.1.relu.position6x4,82.71821864285398,161.0,0.7877512490107078,ResNet18,Object Classification,Supervised,PyTorch
+102,layer4.1.relu.position6x5,77.06927715228628,156.0,0.8138933449015887,ResNet18,Object Classification,Supervised,PyTorch
+103,layer4.1.relu.position6x6,61.77154479569382,143.0,0.8801995549559771,ResNet18,Object Classification,Supervised,PyTorch
+104,layer1.0.relu,157.78903588507882,531.0,0.7282067573608125,ResNet50,Object Classification,Supervised,PyTorch
+105,layer1.1.relu,256.0207105091602,582.0,0.6489049452956912,ResNet50,Object Classification,Supervised,PyTorch
+106,layer1.2.relu,334.50903947219365,615.0,0.5997406673792305,ResNet50,Object Classification,Supervised,PyTorch
+107,layer2.0.relu,174.01794552358135,562.0,0.7074379158445583,ResNet50,Object Classification,Supervised,PyTorch
+108,layer2.1.relu,416.82207539727017,609.0,0.5467978188305253,ResNet50,Object Classification,Supervised,PyTorch
+109,layer2.2.relu,563.3024048854279,630.0,0.4803612107803485,ResNet50,Object Classification,Supervised,PyTorch
+110,layer2.3.relu,636.849052225132,643.0,0.4449827568042145,ResNet50,Object Classification,Supervised,PyTorch
+111,layer3.0.relu,372.33658155032754,595.0,0.5758930112523326,ResNet50,Object Classification,Supervised,PyTorch
+112,layer3.1.relu,456.2039238934876,604.0,0.5376862986097591,ResNet50,Object Classification,Supervised,PyTorch
+113,layer3.2.relu,513.6216861664515,613.0,0.509066569132578,ResNet50,Object Classification,Supervised,PyTorch
+114,layer3.3.relu,484.75014991151926,617.0,0.5196066512014097,ResNet50,Object Classification,Supervised,PyTorch
+115,layer3.4.relu,487.63036860466383,624.0,0.5150354333515377,ResNet50,Object Classification,Supervised,PyTorch
+116,layer3.5.relu,502.6424088101635,637.0,0.491280303377785,ResNet50,Object Classification,Supervised,PyTorch
+117,layer4.0.relu.position0x0,7.232506276944713,91.0,1.2159235203764662,ResNet50,Object Classification,Supervised,PyTorch
+118,layer4.0.relu.position0x1,92.75617284207944,252.0,1.00930154488862,ResNet50,Object Classification,Supervised,PyTorch
+119,layer4.0.relu.position0x2,114.82720467434548,271.0,0.9780530648764466,ResNet50,Object Classification,Supervised,PyTorch
+120,layer4.0.relu.position0x3,120.42835742784632,273.0,0.9701093722638624,ResNet50,Object Classification,Supervised,PyTorch
+121,layer4.0.relu.position0x4,119.27032628580407,272.0,0.9719320391340645,ResNet50,Object Classification,Supervised,PyTorch
+122,layer4.0.relu.position0x5,109.61844434753132,267.0,0.9837627742712935,ResNet50,Object Classification,Supervised,PyTorch
+123,layer4.0.relu.position0x6,45.10780517110848,180.0,1.105237996517696,ResNet50,Object Classification,Supervised,PyTorch
+124,layer4.0.relu.position1x0,92.61092639933356,256.0,1.005716004919324,ResNet50,Object Classification,Supervised,PyTorch
+125,layer4.0.relu.position1x1,153.82510870760734,326.0,0.9134952277730416,ResNet50,Object Classification,Supervised,PyTorch
+126,layer4.0.relu.position1x2,153.3953654656071,335.0,0.9015518412303934,ResNet50,Object Classification,Supervised,PyTorch
+127,layer4.0.relu.position1x3,146.92563556326002,331.0,0.9070772996775311,ResNet50,Object Classification,Supervised,PyTorch
+128,layer4.0.relu.position1x4,154.0018388455021,336.0,0.9009246460116004,ResNet50,Object Classification,Supervised,PyTorch
+129,layer4.0.relu.position1x5,155.78591048218453,333.0,0.90332020251526,ResNet50,Object Classification,Supervised,PyTorch
+130,layer4.0.relu.position1x6,133.83084736243995,283.0,0.9496499683563412,ResNet50,Object Classification,Supervised,PyTorch
+131,layer4.0.relu.position2x0,133.12760566461876,287.0,0.946587955993888,ResNet50,Object Classification,Supervised,PyTorch
+132,layer4.0.relu.position2x1,168.38403139105307,347.0,0.887546297705849,ResNet50,Object Classification,Supervised,PyTorch
+133,layer4.0.relu.position2x2,166.8232338503815,356.0,0.8829535779487138,ResNet50,Object Classification,Supervised,PyTorch
+134,layer4.0.relu.position2x3,160.60931848137537,351.0,0.8913305880877216,ResNet50,Object Classification,Supervised,PyTorch
+135,layer4.0.relu.position2x4,163.8530531524306,354.0,0.8880010476824681,ResNet50,Object Classification,Supervised,PyTorch
+136,layer4.0.relu.position2x5,170.88343037927734,357.0,0.8798159001000807,ResNet50,Object Classification,Supervised,PyTorch
+137,layer4.0.relu.position2x6,157.3019431546363,315.0,0.912291946513679,ResNet50,Object Classification,Supervised,PyTorch
+138,layer4.0.relu.position3x0,138.34316955805843,291.0,0.9419334565629612,ResNet50,Object Classification,Supervised,PyTorch
+139,layer4.0.relu.position3x1,182.72271475608704,361.0,0.8733271874656772,ResNet50,Object Classification,Supervised,PyTorch
+140,layer4.0.relu.position3x2,185.00781004306356,373.0,0.8697702455066397,ResNet50,Object Classification,Supervised,PyTorch
+141,layer4.0.relu.position3x3,168.90756489283206,359.0,0.8873566475485438,ResNet50,Object Classification,Supervised,PyTorch
+142,layer4.0.relu.position3x4,180.0470398824717,368.0,0.8753020202693518,ResNet50,Object Classification,Supervised,PyTorch
+143,layer4.0.relu.position3x5,187.37319885025005,371.0,0.8662715583652791,ResNet50,Object Classification,Supervised,PyTorch
+144,layer4.0.relu.position3x6,163.56593934281568,323.0,0.9041135648737382,ResNet50,Object Classification,Supervised,PyTorch
+145,layer4.0.relu.position4x0,139.35939030610305,292.0,0.9412712417574504,ResNet50,Object Classification,Supervised,PyTorch
+146,layer4.0.relu.position4x1,183.50144545439008,361.0,0.8737107256620502,ResNet50,Object Classification,Supervised,PyTorch
+147,layer4.0.relu.position4x2,190.66489973425124,374.0,0.8651645769150744,ResNet50,Object Classification,Supervised,PyTorch
+148,layer4.0.relu.position4x3,185.60587883043152,371.0,0.8708799266516031,ResNet50,Object Classification,Supervised,PyTorch
+149,layer4.0.relu.position4x4,189.62494175139855,374.0,0.8666706652665908,ResNet50,Object Classification,Supervised,PyTorch
+150,layer4.0.relu.position4x5,191.2896391314117,375.0,0.8645903984965836,ResNet50,Object Classification,Supervised,PyTorch
+151,layer4.0.relu.position4x6,164.54324960436674,325.0,0.9015946355706558,ResNet50,Object Classification,Supervised,PyTorch
+152,layer4.0.relu.position5x0,135.32294800321316,286.0,0.9494087005395332,ResNet50,Object Classification,Supervised,PyTorch
+153,layer4.0.relu.position5x1,173.20432165505204,348.0,0.8874217570548282,ResNet50,Object Classification,Supervised,PyTorch
+154,layer4.0.relu.position5x2,182.99786945995365,362.0,0.8752163550955593,ResNet50,Object Classification,Supervised,PyTorch
+155,layer4.0.relu.position5x3,184.91677441103585,362.0,0.8737124119786119,ResNet50,Object Classification,Supervised,PyTorch
+156,layer4.0.relu.position5x4,186.62947521029332,364.0,0.8709797664712642,ResNet50,Object Classification,Supervised,PyTorch
+157,layer4.0.relu.position5x5,182.31190893035813,359.0,0.8756461271934828,ResNet50,Object Classification,Supervised,PyTorch
+158,layer4.0.relu.position5x6,155.6886942565574,314.0,0.9134650808871186,ResNet50,Object Classification,Supervised,PyTorch
+159,layer4.0.relu.position6x0,91.15475615734044,217.0,1.0403219942859896,ResNet50,Object Classification,Supervised,PyTorch
+160,layer4.0.relu.position6x1,138.02607248654786,294.0,0.9471191815019788,ResNet50,Object Classification,Supervised,PyTorch
+161,layer4.0.relu.position6x2,152.43055296963112,311.0,0.9246793479611924,ResNet50,Object Classification,Supervised,PyTorch
+162,layer4.0.relu.position6x3,157.09383509050355,315.0,0.9139292312833742,ResNet50,Object Classification,Supervised,PyTorch
+163,layer4.0.relu.position6x4,156.1912371133024,314.0,0.9158828154228612,ResNet50,Object Classification,Supervised,PyTorch
+164,layer4.0.relu.position6x5,146.1500670891222,307.0,0.9322754207117566,ResNet50,Object Classification,Supervised,PyTorch
+165,layer4.0.relu.position6x6,104.48961361277568,240.0,1.0087115027525588,ResNet50,Object Classification,Supervised,PyTorch
+166,layer4.1.relu.position0x0,9.862290892404552,123.0,1.157475731151424,ResNet50,Object Classification,Supervised,PyTorch
+167,layer4.1.relu.position0x1,99.94293423706138,250.0,1.0035533538127694,ResNet50,Object Classification,Supervised,PyTorch
+168,layer4.1.relu.position0x2,120.32851753178856,264.0,0.9682933630249372,ResNet50,Object Classification,Supervised,PyTorch
+169,layer4.1.relu.position0x3,127.3046745469737,267.0,0.958219801208676,ResNet50,Object Classification,Supervised,PyTorch
+170,layer4.1.relu.position0x4,124.61283816971324,266.0,0.9626980125400416,ResNet50,Object Classification,Supervised,PyTorch
+171,layer4.1.relu.position0x5,109.3477916449541,256.0,0.9843275022441584,ResNet50,Object Classification,Supervised,PyTorch
+172,layer4.1.relu.position0x6,61.82203494835191,200.0,1.0814601170055769,ResNet50,Object Classification,Supervised,PyTorch
+173,layer4.1.relu.position1x0,95.53213639040509,250.0,1.025676591673511,ResNet50,Object Classification,Supervised,PyTorch
+174,layer4.1.relu.position1x1,137.01885317091177,300.0,0.9388721834117232,ResNet50,Object Classification,Supervised,PyTorch
+175,layer4.1.relu.position1x2,153.54376180321808,308.0,0.9071159829834812,ResNet50,Object Classification,Supervised,PyTorch
+176,layer4.1.relu.position1x3,151.94863276118895,308.0,0.904393823926052,ResNet50,Object Classification,Supervised,PyTorch
+177,layer4.1.relu.position1x4,154.4908141932915,309.0,0.9025368967866492,ResNet50,Object Classification,Supervised,PyTorch
+178,layer4.1.relu.position1x5,149.4748038143796,306.0,0.9172481894303324,ResNet50,Object Classification,Supervised,PyTorch
+179,layer4.1.relu.position1x6,119.70209368525356,268.0,0.970436932278738,ResNet50,Object Classification,Supervised,PyTorch
+180,layer4.1.relu.position2x0,125.7043600039282,274.0,0.9730498466187626,ResNet50,Object Classification,Supervised,PyTorch
+181,layer4.1.relu.position2x1,164.9324939321952,320.0,0.90174904288269,ResNet50,Object Classification,Supervised,PyTorch
+182,layer4.1.relu.position2x2,172.06358816891915,324.0,0.8816245247506831,ResNet50,Object Classification,Supervised,PyTorch
+183,layer4.1.relu.position2x3,163.74517622269548,318.0,0.8882937341893771,ResNet50,Object Classification,Supervised,PyTorch
+184,layer4.1.relu.position2x4,168.93789651140332,322.0,0.8811565177937909,ResNet50,Object Classification,Supervised,PyTorch
+185,layer4.1.relu.position2x5,176.43751793581222,331.0,0.881507257167447,ResNet50,Object Classification,Supervised,PyTorch
+186,layer4.1.relu.position2x6,146.78114067003125,297.0,0.9263403231371338,ResNet50,Object Classification,Supervised,PyTorch
+187,layer4.1.relu.position3x0,133.88805992846935,281.0,0.96328523026374,ResNet50,Object Classification,Supervised,PyTorch
+188,layer4.1.relu.position3x1,182.8749854140193,334.0,0.8807030927758713,ResNet50,Object Classification,Supervised,PyTorch
+189,layer4.1.relu.position3x2,188.50298607011197,338.0,0.865936551927401,ResNet50,Object Classification,Supervised,PyTorch
+190,layer4.1.relu.position3x3,173.09787483913618,327.0,0.881035682436085,ResNet50,Object Classification,Supervised,PyTorch
+191,layer4.1.relu.position3x4,182.78269181183745,335.0,0.8704064224384563,ResNet50,Object Classification,Supervised,PyTorch
+192,layer4.1.relu.position3x5,194.3117216809076,345.0,0.8617003835401696,ResNet50,Object Classification,Supervised,PyTorch
+193,layer4.1.relu.position3x6,159.23582173287397,309.0,0.9084337488120736,ResNet50,Object Classification,Supervised,PyTorch
+194,layer4.1.relu.position4x0,134.33975244428905,282.0,0.9636719551539484,ResNet50,Object Classification,Supervised,PyTorch
+195,layer4.1.relu.position4x1,181.23287040369223,335.0,0.8838878166823303,ResNet50,Object Classification,Supervised,PyTorch
+196,layer4.1.relu.position4x2,192.7386185994401,342.0,0.8660093820094608,ResNet50,Object Classification,Supervised,PyTorch
+197,layer4.1.relu.position4x3,185.42285890383192,338.0,0.8700938764858119,ResNet50,Object Classification,Supervised,PyTorch
+198,layer4.1.relu.position4x4,190.5551802091549,341.0,0.8646705628888158,ResNet50,Object Classification,Supervised,PyTorch
+199,layer4.1.relu.position4x5,195.15376585935,348.0,0.8617261510345817,ResNet50,Object Classification,Supervised,PyTorch
+200,layer4.1.relu.position4x6,158.7473065875379,311.0,0.907885256387749,ResNet50,Object Classification,Supervised,PyTorch
+201,layer4.1.relu.position5x0,124.11286741768528,274.0,0.975400686993492,ResNet50,Object Classification,Supervised,PyTorch
+202,layer4.1.relu.position5x1,162.24633850435183,323.0,0.9053857424508456,ResNet50,Object Classification,Supervised,PyTorch
+203,layer4.1.relu.position5x2,181.1840175678654,337.0,0.8814115001591287,ResNet50,Object Classification,Supervised,PyTorch
+204,layer4.1.relu.position5x3,184.61224741147137,339.0,0.8749776863654545,ResNet50,Object Classification,Supervised,PyTorch
+205,layer4.1.relu.position5x4,185.74495032631603,340.0,0.8725617393645583,ResNet50,Object Classification,Supervised,PyTorch
+206,layer4.1.relu.position5x5,176.48306294047575,336.0,0.88319776397345,ResNet50,Object Classification,Supervised,PyTorch
+207,layer4.1.relu.position5x6,144.1055087667207,298.0,0.926431788601242,ResNet50,Object Classification,Supervised,PyTorch
+208,layer4.1.relu.position6x0,94.57530607974014,226.0,1.0356718002489962,ResNet50,Object Classification,Supervised,PyTorch
+209,layer4.1.relu.position6x1,126.21590926975058,279.0,0.9567589513358558,ResNet50,Object Classification,Supervised,PyTorch
+210,layer4.1.relu.position6x2,144.67256954206962,295.0,0.9254158945585392,ResNet50,Object Classification,Supervised,PyTorch
+211,layer4.1.relu.position6x3,151.5522159960802,301.0,0.9160284264394364,ResNet50,Object Classification,Supervised,PyTorch
+212,layer4.1.relu.position6x4,149.89233196233653,300.0,0.9180299125223934,ResNet50,Object Classification,Supervised,PyTorch
+213,layer4.1.relu.position6x5,135.3269118356991,289.0,0.9389553124135576,ResNet50,Object Classification,Supervised,PyTorch
+214,layer4.1.relu.position6x6,102.99217870912145,239.0,1.0118914876027831,ResNet50,Object Classification,Supervised,PyTorch
+215,layer4.2.relu.position0x0,25.512452011340947,170.0,1.1353591726164105,ResNet50,Object Classification,Supervised,PyTorch
+216,layer4.2.relu.position0x1,72.75646453261695,214.0,1.030011301197881,ResNet50,Object Classification,Supervised,PyTorch
+217,layer4.2.relu.position0x2,73.87960623223381,204.0,1.0079464328043644,ResNet50,Object Classification,Supervised,PyTorch
+218,layer4.2.relu.position0x3,74.47368930055434,199.0,1.000636238700931,ResNet50,Object Classification,Supervised,PyTorch
+219,layer4.2.relu.position0x4,74.07377413765857,201.0,1.0036982788795137,ResNet50,Object Classification,Supervised,PyTorch
+220,layer4.2.relu.position0x5,74.92626799953592,205.0,1.0262676611890214,ResNet50,Object Classification,Supervised,PyTorch
+221,layer4.2.relu.position0x6,68.30102078835621,195.0,1.0711031059540888,ResNet50,Object Classification,Supervised,PyTorch
+222,layer4.2.relu.position1x0,72.90231349762465,209.0,1.0518357876094315,ResNet50,Object Classification,Supervised,PyTorch
+223,layer4.2.relu.position1x1,90.04074832291754,213.0,0.9964000472744924,ResNet50,Object Classification,Supervised,PyTorch
+224,layer4.2.relu.position1x2,111.54228889405314,199.0,0.9728143432884822,ResNet50,Object Classification,Supervised,PyTorch
+225,layer4.2.relu.position1x3,116.76476593286476,194.0,0.9649041967416008,ResNet50,Object Classification,Supervised,PyTorch
+226,layer4.2.relu.position1x4,115.93994260465136,196.0,0.9641226313274162,ResNet50,Object Classification,Supervised,PyTorch
+227,layer4.2.relu.position1x5,107.01009266663648,205.0,0.9774572369508432,ResNet50,Object Classification,Supervised,PyTorch
+228,layer4.2.relu.position1x6,88.80595011159956,205.0,1.0124382442426545,ResNet50,Object Classification,Supervised,PyTorch
+229,layer4.2.relu.position2x0,81.58032249454541,202.0,1.0257114598389026,ResNet50,Object Classification,Supervised,PyTorch
+230,layer4.2.relu.position2x1,125.9835712161116,199.0,0.9746202255969076,ResNet50,Object Classification,Supervised,PyTorch
+231,layer4.2.relu.position2x2,149.2247150750453,191.0,0.956144057116338,ResNet50,Object Classification,Supervised,PyTorch
+232,layer4.2.relu.position2x3,147.98137533144728,187.0,0.954260294312746,ResNet50,Object Classification,Supervised,PyTorch
+233,layer4.2.relu.position2x4,151.10044553114042,189.0,0.9488861706943236,ResNet50,Object Classification,Supervised,PyTorch
+234,layer4.2.relu.position2x5,147.2840171561479,198.0,0.9466761274504282,ResNet50,Object Classification,Supervised,PyTorch
+235,layer4.2.relu.position2x6,111.70215352745537,201.0,0.980487695663038,ResNet50,Object Classification,Supervised,PyTorch
+236,layer4.2.relu.position3x0,88.70859827045547,200.0,1.0152172466174854,ResNet50,Object Classification,Supervised,PyTorch
+237,layer4.2.relu.position3x1,145.6404914000687,198.0,0.9615971538294448,ResNet50,Object Classification,Supervised,PyTorch
+238,layer4.2.relu.position3x2,160.47194189265653,189.0,0.9516320105092678,ResNet50,Object Classification,Supervised,PyTorch
+239,layer4.2.relu.position3x3,154.44184477435292,185.0,0.9539862626604886,ResNet50,Object Classification,Supervised,PyTorch
+240,layer4.2.relu.position3x4,158.66657033579918,187.0,0.9473231306670556,ResNet50,Object Classification,Supervised,PyTorch
+241,layer4.2.relu.position3x5,162.87285078439297,195.0,0.9381932991785,ResNet50,Object Classification,Supervised,PyTorch
+242,layer4.2.relu.position3x6,125.86071718095192,199.0,0.9692884498854552,ResNet50,Object Classification,Supervised,PyTorch
+243,layer4.2.relu.position4x0,89.6875238834942,202.0,1.0181604305925236,ResNet50,Object Classification,Supervised,PyTorch
+244,layer4.2.relu.position4x1,143.1805997818818,200.0,0.964677045227062,ResNet50,Object Classification,Supervised,PyTorch
+245,layer4.2.relu.position4x2,158.61035135871128,190.0,0.9547773543972836,ResNet50,Object Classification,Supervised,PyTorch
+246,layer4.2.relu.position4x3,152.25437180187515,185.0,0.957684174033426,ResNet50,Object Classification,Supervised,PyTorch
+247,layer4.2.relu.position4x4,157.28319214991106,188.0,0.9497251168878512,ResNet50,Object Classification,Supervised,PyTorch
+248,layer4.2.relu.position4x5,160.44899986292842,197.0,0.9417756976555935,ResNet50,Object Classification,Supervised,PyTorch
+249,layer4.2.relu.position4x6,123.741442882614,200.0,0.9715178285612524,ResNet50,Object Classification,Supervised,PyTorch
+250,layer4.2.relu.position5x0,80.55429923684932,201.0,1.0359793441105396,ResNet50,Object Classification,Supervised,PyTorch
+251,layer4.2.relu.position5x1,117.14093532650992,205.0,0.9861788678432266,ResNet50,Object Classification,Supervised,PyTorch
+252,layer4.2.relu.position5x2,143.47530397471502,197.0,0.9627272101717976,ResNet50,Object Classification,Supervised,PyTorch
+253,layer4.2.relu.position5x3,142.63761903917484,191.0,0.9625473354849378,ResNet50,Object Classification,Supervised,PyTorch
+254,layer4.2.relu.position5x4,144.51420589942782,194.0,0.9574433652269724,ResNet50,Object Classification,Supervised,PyTorch
+255,layer4.2.relu.position5x5,133.17300989823786,201.0,0.9648639238967074,ResNet50,Object Classification,Supervised,PyTorch
+256,layer4.2.relu.position5x6,106.24012771587276,201.0,0.9948163923574396,ResNet50,Object Classification,Supervised,PyTorch
+257,layer4.2.relu.position6x0,73.18994717455885,196.0,1.064291936491302,ResNet50,Object Classification,Supervised,PyTorch
+258,layer4.2.relu.position6x1,89.08801036443408,206.0,1.016561370727906,ResNet50,Object Classification,Supervised,PyTorch
+259,layer4.2.relu.position6x2,100.3294268557608,201.0,0.9910745289626172,ResNet50,Object Classification,Supervised,PyTorch
+260,layer4.2.relu.position6x3,101.63273119457962,197.0,0.9876659893086316,ResNet50,Object Classification,Supervised,PyTorch
+261,layer4.2.relu.position6x4,100.89713042763816,200.0,0.9898485435588738,ResNet50,Object Classification,Supervised,PyTorch
+262,layer4.2.relu.position6x5,92.88887157420328,201.0,1.004515612149677,ResNet50,Object Classification,Supervised,PyTorch
+263,layer4.2.relu.position6x6,85.11586283518098,198.0,1.0356572040746586,ResNet50,Object Classification,Supervised,PyTorch
+0,layer1.0.relu,22.4348268446434,181.0,1.0617262342636806,ResNet18,None,Untrained,PyTorch
+1,layer1.1.relu,28.33884123634946,227.0,1.017970825645783,ResNet18,None,Untrained,PyTorch
+2,layer2.0.relu,26.63483045677061,238.0,1.0162200373370938,ResNet18,None,Untrained,PyTorch
+3,layer2.1.relu,21.190131019694302,239.0,1.016919740931148,ResNet18,None,Untrained,PyTorch
+4,layer3.0.relu,23.402414629406536,284.0,0.9797789132806332,ResNet18,None,Untrained,PyTorch
+5,layer3.1.relu,17.37541915832888,272.0,0.9962750746184073,ResNet18,None,Untrained,PyTorch
+6,layer4.0.relu.position0x0,3.4718782776940165,14.0,1.9476540425664008,ResNet18,None,Untrained,PyTorch
+7,layer4.0.relu.position0x1,4.149605049871279,26.0,1.9121831327531589,ResNet18,None,Untrained,PyTorch
+8,layer4.0.relu.position0x2,4.684273442147556,35.0,1.875477821755472,ResNet18,None,Untrained,PyTorch
+9,layer4.0.relu.position0x3,4.944425021700019,39.0,1.8660478070926203,ResNet18,None,Untrained,PyTorch
+10,layer4.0.relu.position0x4,4.936387539403063,39.0,1.870560700919753,ResNet18,None,Untrained,PyTorch
+11,layer4.0.relu.position0x5,4.665878222895165,34.0,1.8837032866028884,ResNet18,None,Untrained,PyTorch
+12,layer4.0.relu.position0x6,3.996280096183198,21.0,1.9418489389287668,ResNet18,None,Untrained,PyTorch
+13,layer4.0.relu.position1x0,4.519443730160409,29.0,1.8850842717716787,ResNet18,None,Untrained,PyTorch
+14,layer4.0.relu.position1x1,4.80167811368602,38.0,1.867605031179948,ResNet18,None,Untrained,PyTorch
+15,layer4.0.relu.position1x2,5.961960269152197,51.0,1.8042021848950736,ResNet18,None,Untrained,PyTorch
+16,layer4.0.relu.position1x3,6.704056058204641,57.0,1.8460002487189129,ResNet18,None,Untrained,PyTorch
+17,layer4.0.relu.position1x4,6.700532017703073,57.0,1.8007818919559402,ResNet18,None,Untrained,PyTorch
+18,layer4.0.relu.position1x5,6.035569144607099,51.0,1.8247521039817671,ResNet18,None,Untrained,PyTorch
+19,layer4.0.relu.position1x6,4.9241452768420615,36.0,1.8612558149745717,ResNet18,None,Untrained,PyTorch
+20,layer4.0.relu.position2x0,5.226256609339718,39.0,1.8549923388920415,ResNet18,None,Untrained,PyTorch
+21,layer4.0.relu.position2x1,5.875253560380493,51.0,1.813001609199216,ResNet18,None,Untrained,PyTorch
+22,layer4.0.relu.position2x2,7.540335286477564,66.0,1.7577802651407302,ResNet18,None,Untrained,PyTorch
+23,layer4.0.relu.position2x3,8.487446508240907,72.0,1.743185411005618,ResNet18,None,Untrained,PyTorch
+24,layer4.0.relu.position2x4,8.569805629852498,72.0,1.7671657899075293,ResNet18,None,Untrained,PyTorch
+25,layer4.0.relu.position2x5,7.606611812140659,65.0,1.7861893918921512,ResNet18,None,Untrained,PyTorch
+26,layer4.0.relu.position2x6,5.731382773964526,48.0,1.825240380294305,ResNet18,None,Untrained,PyTorch
+27,layer4.0.relu.position3x0,5.645462174277258,45.0,1.8184859410192664,ResNet18,None,Untrained,PyTorch
+28,layer4.0.relu.position3x1,6.475493625503667,58.0,1.7897050400026857,ResNet18,None,Untrained,PyTorch
+29,layer4.0.relu.position3x2,8.329485349820121,73.0,1.7291454035869531,ResNet18,None,Untrained,PyTorch
+30,layer4.0.relu.position3x3,9.39966584241636,79.0,1.715499617144992,ResNet18,None,Untrained,PyTorch
+31,layer4.0.relu.position3x4,9.439039078385,79.0,1.7140795708264582,ResNet18,None,Untrained,PyTorch
+32,layer4.0.relu.position3x5,8.456306243137131,73.0,1.743842985781741,ResNet18,None,Untrained,PyTorch
+33,layer4.0.relu.position3x6,6.292757078724225,55.0,1.7991842443614607,ResNet18,None,Untrained,PyTorch
+34,layer4.0.relu.position4x0,5.736965343294423,46.0,1.8175761540888369,ResNet18,None,Untrained,PyTorch
+35,layer4.0.relu.position4x1,6.563301276313273,59.0,1.7798495404046506,ResNet18,None,Untrained,PyTorch
+36,layer4.0.relu.position4x2,8.259127251748724,74.0,1.7234847130542217,ResNet18,None,Untrained,PyTorch
+37,layer4.0.relu.position4x3,9.141744059957476,79.0,1.714563851276183,ResNet18,None,Untrained,PyTorch
+38,layer4.0.relu.position4x4,9.315874922968828,79.0,1.727981281015345,ResNet18,None,Untrained,PyTorch
+39,layer4.0.relu.position4x5,8.398205877629174,73.0,1.737605288704229,ResNet18,None,Untrained,PyTorch
+40,layer4.0.relu.position4x6,6.338267758075536,55.0,1.7931659156857953,ResNet18,None,Untrained,PyTorch
+41,layer4.0.relu.position5x0,5.207827674241306,40.0,1.8479212329803711,ResNet18,None,Untrained,PyTorch
+42,layer4.0.relu.position5x1,5.879544779817517,51.0,1.8150504482900256,ResNet18,None,Untrained,PyTorch
+43,layer4.0.relu.position5x2,7.171949305404467,65.0,1.7682441458347742,ResNet18,None,Untrained,PyTorch
+44,layer4.0.relu.position5x3,7.939541971989302,71.0,1.755913565286574,ResNet18,None,Untrained,PyTorch
+45,layer4.0.relu.position5x4,8.04980898639335,71.0,1.7508935676352266,ResNet18,None,Untrained,PyTorch
+46,layer4.0.relu.position5x5,7.341894533779811,65.0,1.7679481422897247,ResNet18,None,Untrained,PyTorch
+47,layer4.0.relu.position5x6,5.737562392794496,49.0,1.8215833959496712,ResNet18,None,Untrained,PyTorch
+48,layer4.0.relu.position6x0,4.798797460217567,28.0,1.8919511795471824,ResNet18,None,Untrained,PyTorch
+49,layer4.0.relu.position6x1,5.277952307730472,40.0,1.8294005856901416,ResNet18,None,Untrained,PyTorch
+50,layer4.0.relu.position6x2,5.883077197498631,52.0,1.7871813568960693,ResNet18,None,Untrained,PyTorch
+51,layer4.0.relu.position6x3,6.32199985908785,56.0,1.78510870579522,ResNet18,None,Untrained,PyTorch
+52,layer4.0.relu.position6x4,6.382614955635531,56.0,1.7793912481482046,ResNet18,None,Untrained,PyTorch
+53,layer4.0.relu.position6x5,6.108752431534749,52.0,1.8110921303062637,ResNet18,None,Untrained,PyTorch
+54,layer4.0.relu.position6x6,4.903450121998713,37.0,1.8453240383506355,ResNet18,None,Untrained,PyTorch
+55,layer4.1.relu.position0x0,4.046617727313079,33.0,1.7546768393260783,ResNet18,None,Untrained,PyTorch
+56,layer4.1.relu.position0x1,4.473039973478048,47.0,1.6998508786105682,ResNet18,None,Untrained,PyTorch
+57,layer4.1.relu.position0x2,4.992293865939767,59.0,1.6760513707652116,ResNet18,None,Untrained,PyTorch
+58,layer4.1.relu.position0x3,5.339559368246085,65.0,1.6687134760050244,ResNet18,None,Untrained,PyTorch
+59,layer4.1.relu.position0x4,5.315292018557718,65.0,1.6725308114224255,ResNet18,None,Untrained,PyTorch
+60,layer4.1.relu.position0x5,4.796152277818721,55.0,1.696188980643332,ResNet18,None,Untrained,PyTorch
+61,layer4.1.relu.position0x6,4.072870011018676,36.0,1.76614354453374,ResNet18,None,Untrained,PyTorch
+62,layer4.1.relu.position1x0,4.319539324608056,46.0,1.7044445747738146,ResNet18,None,Untrained,PyTorch
+63,layer4.1.relu.position1x1,4.924195976016364,56.0,1.6827068349587218,ResNet18,None,Untrained,PyTorch
+64,layer4.1.relu.position1x2,5.7992198320748845,72.0,1.6372856086033218,ResNet18,None,Untrained,PyTorch
+65,layer4.1.relu.position1x3,6.291574687323171,78.0,1.629606191998918,ResNet18,None,Untrained,PyTorch
+66,layer4.1.relu.position1x4,6.190942378436049,77.0,1.633007912918217,ResNet18,None,Untrained,PyTorch
+67,layer4.1.relu.position1x5,5.678271881670447,69.0,1.651557721354851,ResNet18,None,Untrained,PyTorch
+68,layer4.1.relu.position1x6,4.6435206290856135,51.0,1.7076306736978888,ResNet18,None,Untrained,PyTorch
+69,layer4.1.relu.position2x0,4.8403684418931325,57.0,1.740319407742273,ResNet18,None,Untrained,PyTorch
+70,layer4.1.relu.position2x1,5.455480421166886,70.0,1.6496742644793974,ResNet18,None,Untrained,PyTorch
+71,layer4.1.relu.position2x2,6.60523847805608,86.0,1.603486573348745,ResNet18,None,Untrained,PyTorch
+72,layer4.1.relu.position2x3,7.1391051602521856,91.0,1.5990950956662588,ResNet18,None,Untrained,PyTorch
+73,layer4.1.relu.position2x4,7.024187946152511,90.0,1.60019678996218,ResNet18,None,Untrained,PyTorch
+74,layer4.1.relu.position2x5,6.751246957059524,84.0,1.6180388384560975,ResNet18,None,Untrained,PyTorch
+75,layer4.1.relu.position2x6,5.20178189066108,64.0,1.6958131210534195,ResNet18,None,Untrained,PyTorch
+76,layer4.1.relu.position3x0,5.23483666962831,64.0,1.6733868843823352,ResNet18,None,Untrained,PyTorch
+77,layer4.1.relu.position3x1,5.904730755027708,76.0,1.6423685736311155,ResNet18,None,Untrained,PyTorch
+78,layer4.1.relu.position3x2,7.077895115446258,91.0,1.5984168662142924,ResNet18,None,Untrained,PyTorch
+79,layer4.1.relu.position3x3,7.683383851163144,97.0,1.6215146031489611,ResNet18,None,Untrained,PyTorch
+80,layer4.1.relu.position3x4,7.522837940801437,96.0,1.579820699836343,ResNet18,None,Untrained,PyTorch
+81,layer4.1.relu.position3x5,7.209123088482814,91.0,1.6112942421969896,ResNet18,None,Untrained,PyTorch
+82,layer4.1.relu.position3x6,5.6973972752937,71.0,1.6425872967688349,ResNet18,None,Untrained,PyTorch
+83,layer4.1.relu.position4x0,5.222736791419302,64.0,1.6902327670125932,ResNet18,None,Untrained,PyTorch
+84,layer4.1.relu.position4x1,5.993071575165766,76.0,1.6484341904189388,ResNet18,None,Untrained,PyTorch
+85,layer4.1.relu.position4x2,7.171478973418102,92.0,1.6032689839864216,ResNet18,None,Untrained,PyTorch
+86,layer4.1.relu.position4x3,7.684166674469976,97.0,1.5853799234903485,ResNet18,None,Untrained,PyTorch
+87,layer4.1.relu.position4x4,7.552919016897091,96.0,1.6263965133528375,ResNet18,None,Untrained,PyTorch
+88,layer4.1.relu.position4x5,7.290962940167424,91.0,1.606924318446379,ResNet18,None,Untrained,PyTorch
+89,layer4.1.relu.position4x6,5.781770238526962,72.0,1.6429169675733608,ResNet18,None,Untrained,PyTorch
+90,layer4.1.relu.position5x0,4.775875333558937,55.0,1.6924870986614338,ResNet18,None,Untrained,PyTorch
+91,layer4.1.relu.position5x1,5.493423116074357,67.0,1.660547186456605,ResNet18,None,Untrained,PyTorch
+92,layer4.1.relu.position5x2,6.179783541657828,81.0,1.6205508343425843,ResNet18,None,Untrained,PyTorch
+93,layer4.1.relu.position5x3,6.576649729000407,87.0,1.6126891427021222,ResNet18,None,Untrained,PyTorch
+94,layer4.1.relu.position5x4,6.395337164820678,85.0,1.6120833630307077,ResNet18,None,Untrained,PyTorch
+95,layer4.1.relu.position5x5,6.363431549254175,80.0,1.6624175960714886,ResNet18,None,Untrained,PyTorch
+96,layer4.1.relu.position5x6,5.453850893333559,65.0,1.6610667914845811,ResNet18,None,Untrained,PyTorch
+97,layer4.1.relu.position6x0,4.425264840203855,41.0,1.7337225770716145,ResNet18,None,Untrained,PyTorch
+98,layer4.1.relu.position6x1,4.665906034128522,52.0,1.6890515476133403,ResNet18,None,Untrained,PyTorch
+99,layer4.1.relu.position6x2,4.971186720920822,63.0,1.6782339332546423,ResNet18,None,Untrained,PyTorch
+100,layer4.1.relu.position6x3,5.259882388913986,69.0,1.625615540642381,ResNet18,None,Untrained,PyTorch
+101,layer4.1.relu.position6x4,5.259956458343207,69.0,1.6393786804672683,ResNet18,None,Untrained,PyTorch
+102,layer4.1.relu.position6x5,5.182829864420554,64.0,1.651145097592289,ResNet18,None,Untrained,PyTorch
+103,layer4.1.relu.position6x6,4.7395143080597855,51.0,1.6992704075276612,ResNet18,None,Untrained,PyTorch
+104,layer1.0.relu,26.77412054722501,240.0,1.014161124071593,ResNet50,None,Untrained,PyTorch
+105,layer1.1.relu,21.511578497174725,201.0,1.04648430347963,ResNet50,None,Untrained,PyTorch
+106,layer1.2.relu,22.972839468169607,215.0,1.030278883991856,ResNet50,None,Untrained,PyTorch
+107,layer2.0.relu,17.799707621520078,197.0,1.0490448797768108,ResNet50,None,Untrained,PyTorch
+108,layer2.1.relu,16.224329984046506,187.0,1.0568247844731429,ResNet50,None,Untrained,PyTorch
+109,layer2.2.relu,10.3634841381351,104.0,1.139107041415724,ResNet50,None,Untrained,PyTorch
+110,layer2.3.relu,8.738258258717254,79.0,1.167479125460952,ResNet50,None,Untrained,PyTorch
+111,layer3.0.relu,8.225252586055811,69.0,1.1842086351859928,ResNet50,None,Untrained,PyTorch
+112,layer3.1.relu,6.803096999143287,42.0,1.232912624391878,ResNet50,None,Untrained,PyTorch
+113,layer3.2.relu,5.840202772590909,30.0,1.2656984214501563,ResNet50,None,Untrained,PyTorch
+114,layer3.3.relu,5.4798498230911,27.0,1.2694785378668183,ResNet50,None,Untrained,PyTorch
+115,layer3.4.relu,5.005303932146755,22.0,1.2821388750721086,ResNet50,None,Untrained,PyTorch
+116,layer3.5.relu,4.339018720500734,14.0,1.313441750849198,ResNet50,None,Untrained,PyTorch
+117,layer4.0.relu.position0x0,1.297331899198761,1.0,2.3293464499241443,ResNet50,None,Untrained,PyTorch
+118,layer4.0.relu.position0x1,1.439406616347938,1.0,2.220330539444988,ResNet50,None,Untrained,PyTorch
+119,layer4.0.relu.position0x2,1.5227612532230788,1.0,2.2321242570116957,ResNet50,None,Untrained,PyTorch
+120,layer4.0.relu.position0x3,1.5489973068000746,1.0,2.2188997945040363,ResNet50,None,Untrained,PyTorch
+121,layer4.0.relu.position0x4,1.5418859698286298,1.0,2.195232388566959,ResNet50,None,Untrained,PyTorch
+122,layer4.0.relu.position0x5,1.4973972006162006,1.0,2.2084737624876034,ResNet50,None,Untrained,PyTorch
+123,layer4.0.relu.position0x6,1.4158995620259964,1.0,2.26651605369969,ResNet50,None,Untrained,PyTorch
+124,layer4.0.relu.position1x0,1.452545769921378,1.0,2.2961704427751304,ResNet50,None,Untrained,PyTorch
+125,layer4.0.relu.position1x1,1.5578356335928365,2.0,2.2380481013507967,ResNet50,None,Untrained,PyTorch
+126,layer4.0.relu.position1x2,1.6822437888367223,2.0,2.213814992210072,ResNet50,None,Untrained,PyTorch
+127,layer4.0.relu.position1x3,1.7527130545500795,2.0,2.1722436216955976,ResNet50,None,Untrained,PyTorch
+128,layer4.0.relu.position1x4,1.74340432709703,2.0,2.201451042579708,ResNet50,None,Untrained,PyTorch
+129,layer4.0.relu.position1x5,1.6533488834531085,2.0,2.2031805280636307,ResNet50,None,Untrained,PyTorch
+130,layer4.0.relu.position1x6,1.4739335018194115,1.0,2.2235295792669763,ResNet50,None,Untrained,PyTorch
+131,layer4.0.relu.position2x0,1.5695626723417582,2.0,2.2031986864466737,ResNet50,None,Untrained,PyTorch
+132,layer4.0.relu.position2x1,1.7200632037913328,2.0,2.176393309326468,ResNet50,None,Untrained,PyTorch
+133,layer4.0.relu.position2x2,1.921450134692652,4.0,2.203869362569849,ResNet50,None,Untrained,PyTorch
+134,layer4.0.relu.position2x3,2.044588355217878,5.0,2.151101066676404,ResNet50,None,Untrained,PyTorch
+135,layer4.0.relu.position2x4,2.044639836487099,5.0,2.15498160160298,ResNet50,None,Untrained,PyTorch
+136,layer4.0.relu.position2x5,1.913843549500315,4.0,2.1760974313579062,ResNet50,None,Untrained,PyTorch
+137,layer4.0.relu.position2x6,1.626954263906599,2.0,2.2206234184676803,ResNet50,None,Untrained,PyTorch
+138,layer4.0.relu.position3x0,1.625655353481071,2.0,2.225810948934627,ResNet50,None,Untrained,PyTorch
+139,layer4.0.relu.position3x1,1.8251681950047696,3.0,2.197935952218072,ResNet50,None,Untrained,PyTorch
+140,layer4.0.relu.position3x2,2.059373358595078,6.0,2.18463825388328,ResNet50,None,Untrained,PyTorch
+141,layer4.0.relu.position3x3,2.1776580303742508,8.0,2.1633092168431998,ResNet50,None,Untrained,PyTorch
+142,layer4.0.relu.position3x4,2.15969841185572,8.0,2.189384244305344,ResNet50,None,Untrained,PyTorch
+143,layer4.0.relu.position3x5,2.049213109565511,6.0,2.1591876782822,ResNet50,None,Untrained,PyTorch
+144,layer4.0.relu.position3x6,1.726319509669282,3.0,2.219916942563076,ResNet50,None,Untrained,PyTorch
+145,layer4.0.relu.position4x0,1.6406314355116398,2.0,2.2165004460577986,ResNet50,None,Untrained,PyTorch
+146,layer4.0.relu.position4x1,1.843838269997669,3.0,2.2132311717082747,ResNet50,None,Untrained,PyTorch
+147,layer4.0.relu.position4x2,2.065823779444504,6.0,2.1925449706446902,ResNet50,None,Untrained,PyTorch
+148,layer4.0.relu.position4x3,2.1721892547072303,8.0,2.1729785056158164,ResNet50,None,Untrained,PyTorch
+149,layer4.0.relu.position4x4,2.1638764114977027,8.0,2.154483820333333,ResNet50,None,Untrained,PyTorch
+150,layer4.0.relu.position4x5,2.060165116345867,6.0,2.1654510410591645,ResNet50,None,Untrained,PyTorch
+151,layer4.0.relu.position4x6,1.740008402047224,3.0,2.230703375285771,ResNet50,None,Untrained,PyTorch
+152,layer4.0.relu.position5x0,1.591406249622637,2.0,2.2038810387517764,ResNet50,None,Untrained,PyTorch
+153,layer4.0.relu.position5x1,1.7724000762373062,3.0,2.186051490897276,ResNet50,None,Untrained,PyTorch
+154,layer4.0.relu.position5x2,1.9710425625343009,5.0,2.1672376802211413,ResNet50,None,Untrained,PyTorch
+155,layer4.0.relu.position5x3,2.062316845472867,6.0,2.1614313231066564,ResNet50,None,Untrained,PyTorch
+156,layer4.0.relu.position5x4,2.0618126933787564,6.0,2.188238159701793,ResNet50,None,Untrained,PyTorch
+157,layer4.0.relu.position5x5,1.9611228076486389,4.0,2.1734630163331743,ResNet50,None,Untrained,PyTorch
+158,layer4.0.relu.position5x6,1.6886401352060494,2.0,2.1852498175671244,ResNet50,None,Untrained,PyTorch
+159,layer4.0.relu.position6x0,1.462030411105833,1.0,2.21912950121768,ResNet50,None,Untrained,PyTorch
+160,layer4.0.relu.position6x1,1.5434688600583517,1.0,2.195186652140253,ResNet50,None,Untrained,PyTorch
+161,layer4.0.relu.position6x2,1.6704666332181115,2.0,2.203534574678492,ResNet50,None,Untrained,PyTorch
+162,layer4.0.relu.position6x3,1.7213936566473065,3.0,2.205086238707785,ResNet50,None,Untrained,PyTorch
+163,layer4.0.relu.position6x4,1.718007034389854,3.0,2.1944576574872894,ResNet50,None,Untrained,PyTorch
+164,layer4.0.relu.position6x5,1.6566018458365936,2.0,2.1944537184014763,ResNet50,None,Untrained,PyTorch
+165,layer4.0.relu.position6x6,1.4886268400806266,1.0,2.1970490452993934,ResNet50,None,Untrained,PyTorch
+166,layer4.1.relu.position0x0,1.348038482742102,1.0,2.0591412426035265,ResNet50,None,Untrained,PyTorch
+167,layer4.1.relu.position0x1,1.443602828484121,1.0,1.9234550468090024,ResNet50,None,Untrained,PyTorch
+168,layer4.1.relu.position0x2,1.5185660658421325,1.0,1.8954490329192104,ResNet50,None,Untrained,PyTorch
+169,layer4.1.relu.position0x3,1.5438418809410082,1.0,1.8934023122038304,ResNet50,None,Untrained,PyTorch
+170,layer4.1.relu.position0x4,1.5392485878947255,1.0,1.8966057507114429,ResNet50,None,Untrained,PyTorch
+171,layer4.1.relu.position0x5,1.4869895997961369,1.0,1.9088315312442707,ResNet50,None,Untrained,PyTorch
+172,layer4.1.relu.position0x6,1.4187331190377357,1.0,1.976851254449472,ResNet50,None,Untrained,PyTorch
+173,layer4.1.relu.position1x0,1.455320548918844,1.0,1.940005236803899,ResNet50,None,Untrained,PyTorch
+174,layer4.1.relu.position1x1,1.5656178614474665,2.0,1.8783529392942004,ResNet50,None,Untrained,PyTorch
+175,layer4.1.relu.position1x2,1.6503026030390795,2.0,1.885980760472105,ResNet50,None,Untrained,PyTorch
+176,layer4.1.relu.position1x3,1.7143642676899096,2.0,1.870239395165689,ResNet50,None,Untrained,PyTorch
+177,layer4.1.relu.position1x4,1.7102274710044552,2.0,1.908127578647524,ResNet50,None,Untrained,PyTorch
+178,layer4.1.relu.position1x5,1.6272249336474514,2.0,1.872784753437427,ResNet50,None,Untrained,PyTorch
+179,layer4.1.relu.position1x6,1.4991986846896534,1.0,1.8989477649677875,ResNet50,None,Untrained,PyTorch
+180,layer4.1.relu.position2x0,1.5449373803281674,1.0,1.9248327910393932,ResNet50,None,Untrained,PyTorch
+181,layer4.1.relu.position2x1,1.68207534037097,2.0,1.911641320662633,ResNet50,None,Untrained,PyTorch
+182,layer4.1.relu.position2x2,1.824279652724513,3.0,1.861517077219749,ResNet50,None,Untrained,PyTorch
+183,layer4.1.relu.position2x3,1.932856133119261,4.0,1.8571774768967075,ResNet50,None,Untrained,PyTorch
+184,layer4.1.relu.position2x4,1.93439550714524,4.0,1.8639088575578064,ResNet50,None,Untrained,PyTorch
+185,layer4.1.relu.position2x5,1.820130423691108,3.0,1.8909056405209697,ResNet50,None,Untrained,PyTorch
+186,layer4.1.relu.position2x6,1.6501836899233684,2.0,1.9647170646308116,ResNet50,None,Untrained,PyTorch
+187,layer4.1.relu.position3x0,1.606297148562647,2.0,1.920883405425858,ResNet50,None,Untrained,PyTorch
+188,layer4.1.relu.position3x1,1.7864601065906884,3.0,1.86324339396009,ResNet50,None,Untrained,PyTorch
+189,layer4.1.relu.position3x2,1.9647801343058424,4.0,1.8621205829013523,ResNet50,None,Untrained,PyTorch
+190,layer4.1.relu.position3x3,2.062281796599398,5.0,1.849484229792545,ResNet50,None,Untrained,PyTorch
+191,layer4.1.relu.position3x4,2.05880819867208,5.0,1.8534102908850056,ResNet50,None,Untrained,PyTorch
+192,layer4.1.relu.position3x5,1.947434895386732,3.0,1.886087111026086,ResNet50,None,Untrained,PyTorch
+193,layer4.1.relu.position3x6,1.7561318814624285,3.0,1.905145471339412,ResNet50,None,Untrained,PyTorch
+194,layer4.1.relu.position4x0,1.620917408536269,2.0,1.935325607512014,ResNet50,None,Untrained,PyTorch
+195,layer4.1.relu.position4x1,1.8067594818807853,3.0,1.8964964889822704,ResNet50,None,Untrained,PyTorch
+196,layer4.1.relu.position4x2,1.979323757302237,4.0,1.8640869289708708,ResNet50,None,Untrained,PyTorch
+197,layer4.1.relu.position4x3,2.058571049093564,5.0,1.8626935111692675,ResNet50,None,Untrained,PyTorch
+198,layer4.1.relu.position4x4,2.0559787780527485,5.0,1.8547596868729617,ResNet50,None,Untrained,PyTorch
+199,layer4.1.relu.position4x5,1.9570789825746944,4.0,1.8641265845779156,ResNet50,None,Untrained,PyTorch
+200,layer4.1.relu.position4x6,1.7732059273797451,3.0,1.9453880324766624,ResNet50,None,Untrained,PyTorch
+201,layer4.1.relu.position5x0,1.5587692982537904,2.0,1.9344034909166432,ResNet50,None,Untrained,PyTorch
+202,layer4.1.relu.position5x1,1.7139256014083069,2.0,1.8753319041480725,ResNet50,None,Untrained,PyTorch
+203,layer4.1.relu.position5x2,1.854664654208544,3.0,1.880639319607321,ResNet50,None,Untrained,PyTorch
+204,layer4.1.relu.position5x3,1.922645464787614,4.0,1.8764238574834256,ResNet50,None,Untrained,PyTorch
+205,layer4.1.relu.position5x4,1.925510380114828,4.0,1.8829916138256209,ResNet50,None,Untrained,PyTorch
+206,layer4.1.relu.position5x5,1.8390830058305456,3.0,1.8901925538571145,ResNet50,None,Untrained,PyTorch
+207,layer4.1.relu.position5x6,1.6933263874510112,2.0,1.9136177794913996,ResNet50,None,Untrained,PyTorch
+208,layer4.1.relu.position6x0,1.458809824637996,1.0,1.992165944262391,ResNet50,None,Untrained,PyTorch
+209,layer4.1.relu.position6x1,1.5775742377005748,2.0,1.8867482350573803,ResNet50,None,Untrained,PyTorch
+210,layer4.1.relu.position6x2,1.701872559963394,2.0,1.9236091336820595,ResNet50,None,Untrained,PyTorch
+211,layer4.1.relu.position6x3,1.751416352433271,3.0,1.9052228399870572,ResNet50,None,Untrained,PyTorch
+212,layer4.1.relu.position6x4,1.7512253016180193,3.0,1.9094038554030652,ResNet50,None,Untrained,PyTorch
+213,layer4.1.relu.position6x5,1.6802256481290585,2.0,1.8913557933523288,ResNet50,None,Untrained,PyTorch
+214,layer4.1.relu.position6x6,1.5286168567047855,1.0,1.9312740118621696,ResNet50,None,Untrained,PyTorch
+215,layer4.2.relu.position0x0,1.3530250651978486,1.0,1.974401315987729,ResNet50,None,Untrained,PyTorch
+216,layer4.2.relu.position0x1,1.4462581754926798,1.0,1.9315238014576808,ResNet50,None,Untrained,PyTorch
+217,layer4.2.relu.position0x2,1.5305545775302585,1.0,1.938289271576112,ResNet50,None,Untrained,PyTorch
+218,layer4.2.relu.position0x3,1.560091940737807,2.0,1.9199380495243905,ResNet50,None,Untrained,PyTorch
+219,layer4.2.relu.position0x4,1.559226035071687,2.0,1.9216182953222736,ResNet50,None,Untrained,PyTorch
+220,layer4.2.relu.position0x5,1.5064531881460153,1.0,1.9374199723172243,ResNet50,None,Untrained,PyTorch
+221,layer4.2.relu.position0x6,1.4017267259964503,1.0,1.9685565786365464,ResNet50,None,Untrained,PyTorch
+222,layer4.2.relu.position1x0,1.4569957540240477,1.0,1.9223196777141969,ResNet50,None,Untrained,PyTorch
+223,layer4.2.relu.position1x1,1.5380229249701414,1.0,1.9787849462454885,ResNet50,None,Untrained,PyTorch
+224,layer4.2.relu.position1x2,1.6374907892902717,2.0,1.9477795044329824,ResNet50,None,Untrained,PyTorch
+225,layer4.2.relu.position1x3,1.708114980569629,2.0,1.880283526121124,ResNet50,None,Untrained,PyTorch
+226,layer4.2.relu.position1x4,1.7066896208943276,2.0,1.905469765369152,ResNet50,None,Untrained,PyTorch
+227,layer4.2.relu.position1x5,1.6315366088424184,2.0,1.8819561671251728,ResNet50,None,Untrained,PyTorch
+228,layer4.2.relu.position1x6,1.4626449493575824,1.0,1.9659875621245584,ResNet50,None,Untrained,PyTorch
+229,layer4.2.relu.position2x0,1.588903278109404,2.0,1.921570588911744,ResNet50,None,Untrained,PyTorch
+230,layer4.2.relu.position2x1,1.6716727181005695,2.0,1.896344821442824,ResNet50,None,Untrained,PyTorch
+231,layer4.2.relu.position2x2,1.8482660485112556,3.0,1.8693366910894336,ResNet50,None,Untrained,PyTorch
+232,layer4.2.relu.position2x3,1.958044531713286,3.0,1.884746220957066,ResNet50,None,Untrained,PyTorch
+233,layer4.2.relu.position2x4,1.9571365617644365,3.0,1.9043395356725163,ResNet50,None,Untrained,PyTorch
+234,layer4.2.relu.position2x5,1.8287036892104356,3.0,1.958579118178669,ResNet50,None,Untrained,PyTorch
+235,layer4.2.relu.position2x6,1.608775146993065,2.0,1.9477668186863424,ResNet50,None,Untrained,PyTorch
+236,layer4.2.relu.position3x0,1.6670222839949502,2.0,1.9384652064537915,ResNet50,None,Untrained,PyTorch
+237,layer4.2.relu.position3x1,1.7843171745340218,3.0,1.914118454225593,ResNet50,None,Untrained,PyTorch
+238,layer4.2.relu.position3x2,1.9717232763598005,3.0,1.9218151226140925,ResNet50,None,Untrained,PyTorch
+239,layer4.2.relu.position3x3,2.082101805772379,4.0,1.876202604939177,ResNet50,None,Untrained,PyTorch
+240,layer4.2.relu.position3x4,2.067572637098001,4.0,1.944337760100968,ResNet50,None,Untrained,PyTorch
+241,layer4.2.relu.position3x5,1.9460603997314831,3.0,1.876590398135549,ResNet50,None,Untrained,PyTorch
+242,layer4.2.relu.position3x6,1.7156757468040469,2.0,1.9776465197921225,ResNet50,None,Untrained,PyTorch
+243,layer4.2.relu.position4x0,1.682129508395926,2.0,1.911205517927852,ResNet50,None,Untrained,PyTorch
+244,layer4.2.relu.position4x1,1.7969635916407956,3.0,1.8961964626994112,ResNet50,None,Untrained,PyTorch
+245,layer4.2.relu.position4x2,1.973101125978654,3.0,1.877977971114216,ResNet50,None,Untrained,PyTorch
+246,layer4.2.relu.position4x3,2.066147069325669,4.0,1.9185262229241276,ResNet50,None,Untrained,PyTorch
+247,layer4.2.relu.position4x4,2.0481357749901115,4.0,1.927143514583033,ResNet50,None,Untrained,PyTorch
+248,layer4.2.relu.position4x5,1.9401330299043744,3.0,1.87696106784706,ResNet50,None,Untrained,PyTorch
+249,layer4.2.relu.position4x6,1.7227584168547905,2.0,1.9274441233293813,ResNet50,None,Untrained,PyTorch
+250,layer4.2.relu.position5x0,1.5864740787088445,2.0,1.889828004705778,ResNet50,None,Untrained,PyTorch
+251,layer4.2.relu.position5x1,1.7096943866081695,2.0,1.887271270368668,ResNet50,None,Untrained,PyTorch
+252,layer4.2.relu.position5x2,1.8721774120342745,3.0,1.8848797351432771,ResNet50,None,Untrained,PyTorch
+253,layer4.2.relu.position5x3,1.9515176798513845,4.0,1.9074381102051436,ResNet50,None,Untrained,PyTorch
+254,layer4.2.relu.position5x4,1.94082425470378,4.0,1.8776965778072003,ResNet50,None,Untrained,PyTorch
+255,layer4.2.relu.position5x5,1.8415950033551265,3.0,1.9086883271604955,ResNet50,None,Untrained,PyTorch
+256,layer4.2.relu.position5x6,1.6507647126902376,2.0,1.9254719329707315,ResNet50,None,Untrained,PyTorch
+257,layer4.2.relu.position6x0,1.4632450830433767,1.0,1.935364345634636,ResNet50,None,Untrained,PyTorch
+258,layer4.2.relu.position6x1,1.5646259635742628,2.0,1.9107885034774712,ResNet50,None,Untrained,PyTorch
+259,layer4.2.relu.position6x2,1.687978256854329,2.0,1.9219308300856277,ResNet50,None,Untrained,PyTorch
+260,layer4.2.relu.position6x3,1.7467399273317492,3.0,1.8869782196876912,ResNet50,None,Untrained,PyTorch
+261,layer4.2.relu.position6x4,1.7437365844867996,3.0,1.8832650210655155,ResNet50,None,Untrained,PyTorch
+262,layer4.2.relu.position6x5,1.681452531004069,2.0,1.923765950261037,ResNet50,None,Untrained,PyTorch
+263,layer4.2.relu.position6x6,1.541514057311688,1.0,1.930240171127187,ResNet50,None,Untrained,PyTorch
+0,layer1.0.relu,179.2087558543453,559.0,0.6511937783022059,ResNet18,SimCLR,Self-Supervised,VVS
+1,layer1.1.relu,455.5749818531685,626.0,0.5312061618865014,ResNet18,SimCLR,Self-Supervised,VVS
+2,layer2.0.relu,580.5793115775076,623.0,0.4758505329818936,ResNet18,SimCLR,Self-Supervised,VVS
+3,layer2.1.relu,589.6153447222374,626.0,0.4660408449614875,ResNet18,SimCLR,Self-Supervised,VVS
+4,layer3.0.relu,345.61261314265334,546.0,0.5953789904747536,ResNet18,SimCLR,Self-Supervised,VVS
+5,layer3.1.relu,299.7405356803844,540.0,0.6227051545015932,ResNet18,SimCLR,Self-Supervised,VVS
+6,layer4.0.relu.position0x0,33.716628097261605,83.0,1.6457884892112042,ResNet18,SimCLR,Self-Supervised,VVS
+7,layer4.0.relu.position0x1,55.0511802883063,115.0,1.5708083126957268,ResNet18,SimCLR,Self-Supervised,VVS
+8,layer4.0.relu.position0x2,58.191677582871904,118.0,1.557820646715434,ResNet18,SimCLR,Self-Supervised,VVS
+9,layer4.0.relu.position0x3,49.702041212356704,115.0,1.5981198039111033,ResNet18,SimCLR,Self-Supervised,VVS
+10,layer4.0.relu.position0x4,56.27256369893305,119.0,1.547641817343798,ResNet18,SimCLR,Self-Supervised,VVS
+11,layer4.0.relu.position0x5,57.84440010411739,119.0,1.5875254263493217,ResNet18,SimCLR,Self-Supervised,VVS
+12,layer4.0.relu.position0x6,38.547758850786366,86.0,1.6577820553196934,ResNet18,SimCLR,Self-Supervised,VVS
+13,layer4.0.relu.position1x0,54.73830173858535,115.0,1.5512906347624715,ResNet18,SimCLR,Self-Supervised,VVS
+14,layer4.0.relu.position1x1,74.93286464785207,144.0,1.4540259733633338,ResNet18,SimCLR,Self-Supervised,VVS
+15,layer4.0.relu.position1x2,71.42143974357727,145.0,1.5300939414112869,ResNet18,SimCLR,Self-Supervised,VVS
+16,layer4.0.relu.position1x3,58.10672007914213,133.0,1.547774513348435,ResNet18,SimCLR,Self-Supervised,VVS
+17,layer4.0.relu.position1x4,73.18632432870554,145.0,1.468936680130867,ResNet18,SimCLR,Self-Supervised,VVS
+18,layer4.0.relu.position1x5,76.47171030351075,146.0,1.3868902977394113,ResNet18,SimCLR,Self-Supervised,VVS
+19,layer4.0.relu.position1x6,59.0752949338411,118.0,1.6181873676628389,ResNet18,SimCLR,Self-Supervised,VVS
+20,layer4.0.relu.position2x0,61.71420908020775,124.0,1.5392471109400374,ResNet18,SimCLR,Self-Supervised,VVS
+21,layer4.0.relu.position2x1,81.30622671845529,156.0,1.4418689403320435,ResNet18,SimCLR,Self-Supervised,VVS
+22,layer4.0.relu.position2x2,79.06427197649025,149.0,1.5774294051054494,ResNet18,SimCLR,Self-Supervised,VVS
+23,layer4.0.relu.position2x3,63.83367074740178,135.0,1.4827094995234136,ResNet18,SimCLR,Self-Supervised,VVS
+24,layer4.0.relu.position2x4,76.52799278054201,145.0,1.4263538691395172,ResNet18,SimCLR,Self-Supervised,VVS
+25,layer4.0.relu.position2x5,82.55022459805365,154.0,1.4304432782186849,ResNet18,SimCLR,Self-Supervised,VVS
+26,layer4.0.relu.position2x6,62.890585986980696,125.0,1.5524231082719138,ResNet18,SimCLR,Self-Supervised,VVS
+27,layer4.0.relu.position3x0,63.27359799400822,128.0,1.5421262617931453,ResNet18,SimCLR,Self-Supervised,VVS
+28,layer4.0.relu.position3x1,84.80823896081979,161.0,1.451550417781055,ResNet18,SimCLR,Self-Supervised,VVS
+29,layer4.0.relu.position3x2,81.56993023223859,152.0,1.4557708487228027,ResNet18,SimCLR,Self-Supervised,VVS
+30,layer4.0.relu.position3x3,66.21549517464994,133.0,1.4850220739965303,ResNet18,SimCLR,Self-Supervised,VVS
+31,layer4.0.relu.position3x4,77.29534025797481,147.0,1.4894311446535902,ResNet18,SimCLR,Self-Supervised,VVS
+32,layer4.0.relu.position3x5,86.58850533800397,158.0,1.447716126727895,ResNet18,SimCLR,Self-Supervised,VVS
+33,layer4.0.relu.position3x6,64.4263897399814,129.0,1.528010254611846,ResNet18,SimCLR,Self-Supervised,VVS
+34,layer4.0.relu.position4x0,62.91474921591741,128.0,1.5154558938837757,ResNet18,SimCLR,Self-Supervised,VVS
+35,layer4.0.relu.position4x1,84.94237618665481,159.0,1.4314051600701805,ResNet18,SimCLR,Self-Supervised,VVS
+36,layer4.0.relu.position4x2,81.72013765753759,152.0,1.4379476646287712,ResNet18,SimCLR,Self-Supervised,VVS
+37,layer4.0.relu.position4x3,72.70319073762796,141.0,1.4759526939679208,ResNet18,SimCLR,Self-Supervised,VVS
+38,layer4.0.relu.position4x4,80.15285012561257,152.0,1.4753534553413352,ResNet18,SimCLR,Self-Supervised,VVS
+39,layer4.0.relu.position4x5,87.30428547734651,158.0,1.4044615247346366,ResNet18,SimCLR,Self-Supervised,VVS
+40,layer4.0.relu.position4x6,65.25471530988598,130.0,1.5097604333350996,ResNet18,SimCLR,Self-Supervised,VVS
+41,layer4.0.relu.position5x0,61.728516580537615,125.0,1.537804575144912,ResNet18,SimCLR,Self-Supervised,VVS
+42,layer4.0.relu.position5x1,85.01549946394071,156.0,1.4723926281147666,ResNet18,SimCLR,Self-Supervised,VVS
+43,layer4.0.relu.position5x2,87.30080269398023,156.0,1.4573950181818702,ResNet18,SimCLR,Self-Supervised,VVS
+44,layer4.0.relu.position5x3,83.13962213496869,153.0,1.4380135789730406,ResNet18,SimCLR,Self-Supervised,VVS
+45,layer4.0.relu.position5x4,88.48876742183526,157.0,1.4124913732598567,ResNet18,SimCLR,Self-Supervised,VVS
+46,layer4.0.relu.position5x5,84.65456317625757,155.0,1.5128741304172453,ResNet18,SimCLR,Self-Supervised,VVS
+47,layer4.0.relu.position5x6,65.0257816901149,128.0,1.5158251939856002,ResNet18,SimCLR,Self-Supervised,VVS
+48,layer4.0.relu.position6x0,37.10040698532072,91.0,1.6574901423009951,ResNet18,SimCLR,Self-Supervised,VVS
+49,layer4.0.relu.position6x1,57.59514764903927,124.0,1.5315678145998708,ResNet18,SimCLR,Self-Supervised,VVS
+50,layer4.0.relu.position6x2,62.94863640420076,130.0,1.5636124414009394,ResNet18,SimCLR,Self-Supervised,VVS
+51,layer4.0.relu.position6x3,58.67019048278546,128.0,1.586032904491464,ResNet18,SimCLR,Self-Supervised,VVS
+52,layer4.0.relu.position6x4,61.37065956018436,131.0,1.4993856253244733,ResNet18,SimCLR,Self-Supervised,VVS
+53,layer4.0.relu.position6x5,56.15493642085243,127.0,1.5387258873381924,ResNet18,SimCLR,Self-Supervised,VVS
+54,layer4.0.relu.position6x6,36.94915638945975,90.0,1.6935484808587775,ResNet18,SimCLR,Self-Supervised,VVS
+55,layer4.1.relu.position0x0,47.21176987961488,95.0,1.554577254075205,ResNet18,SimCLR,Self-Supervised,VVS
+56,layer4.1.relu.position0x1,73.59482755591551,134.0,0.9990996362833288,ResNet18,SimCLR,Self-Supervised,VVS
+57,layer4.1.relu.position0x2,75.09656929504852,138.0,1.423527479715557,ResNet18,SimCLR,Self-Supervised,VVS
+58,layer4.1.relu.position0x3,71.34911834914344,147.0,1.4480388641896265,ResNet18,SimCLR,Self-Supervised,VVS
+59,layer4.1.relu.position0x4,75.70713992129357,140.0,1.3315689004243223,ResNet18,SimCLR,Self-Supervised,VVS
+60,layer4.1.relu.position0x5,77.21695179319948,139.0,0.9872457840097366,ResNet18,SimCLR,Self-Supervised,VVS
+61,layer4.1.relu.position0x6,51.39375926136137,98.0,1.535661943024071,ResNet18,SimCLR,Self-Supervised,VVS
+62,layer4.1.relu.position1x0,67.88874296870969,126.0,1.4733900968497962,ResNet18,SimCLR,Self-Supervised,VVS
+63,layer4.1.relu.position1x1,90.4055939706668,165.0,0.9062081907597404,ResNet18,SimCLR,Self-Supervised,VVS
+64,layer4.1.relu.position1x2,83.68597401742608,163.0,0.8813223358235359,ResNet18,SimCLR,Self-Supervised,VVS
+65,layer4.1.relu.position1x3,76.06766850992508,162.0,0.9037087237996528,ResNet18,SimCLR,Self-Supervised,VVS
+66,layer4.1.relu.position1x4,85.01247891450089,166.0,0.881172173620224,ResNet18,SimCLR,Self-Supervised,VVS
+67,layer4.1.relu.position1x5,92.10000069919614,167.0,0.8803994589828177,ResNet18,SimCLR,Self-Supervised,VVS
+68,layer4.1.relu.position1x6,65.84860363712566,124.0,1.062348496123206,ResNet18,SimCLR,Self-Supervised,VVS
+69,layer4.1.relu.position2x0,68.3095106797618,134.0,0.9653443826204704,ResNet18,SimCLR,Self-Supervised,VVS
+70,layer4.1.relu.position2x1,88.98893557955807,177.0,0.866154286073485,ResNet18,SimCLR,Self-Supervised,VVS
+71,layer4.1.relu.position2x2,75.11852872170991,161.0,0.9000806370755914,ResNet18,SimCLR,Self-Supervised,VVS
+72,layer4.1.relu.position2x3,55.743542475453225,134.0,0.9749117904614356,ResNet18,SimCLR,Self-Supervised,VVS
+73,layer4.1.relu.position2x4,73.08473330166493,158.0,0.904044929386525,ResNet18,SimCLR,Self-Supervised,VVS
+74,layer4.1.relu.position2x5,87.58461946476763,176.0,0.8619344143674386,ResNet18,SimCLR,Self-Supervised,VVS
+75,layer4.1.relu.position2x6,67.78278013545757,132.0,0.9790270439430157,ResNet18,SimCLR,Self-Supervised,VVS
+76,layer4.1.relu.position3x0,68.98884115708213,140.0,0.9495351531636091,ResNet18,SimCLR,Self-Supervised,VVS
+77,layer4.1.relu.position3x1,92.01479792750015,177.0,0.864385630725056,ResNet18,SimCLR,Self-Supervised,VVS
+78,layer4.1.relu.position3x2,71.18831669546633,149.0,0.920740322291166,ResNet18,SimCLR,Self-Supervised,VVS
+79,layer4.1.relu.position3x3,52.07590519036648,117.0,1.0177625595750115,ResNet18,SimCLR,Self-Supervised,VVS
+80,layer4.1.relu.position3x4,67.89964515817877,144.0,0.9400133056979963,ResNet18,SimCLR,Self-Supervised,VVS
+81,layer4.1.relu.position3x5,85.4071391992137,172.0,0.8871686610224839,ResNet18,SimCLR,Self-Supervised,VVS
+82,layer4.1.relu.position3x6,65.98399681554825,137.0,1.0048000779533954,ResNet18,SimCLR,Self-Supervised,VVS
+83,layer4.1.relu.position4x0,68.88036898061272,141.0,0.9613669045613346,ResNet18,SimCLR,Self-Supervised,VVS
+84,layer4.1.relu.position4x1,97.04950887867108,182.0,0.8337602158947525,ResNet18,SimCLR,Self-Supervised,VVS
+85,layer4.1.relu.position4x2,82.33607714123444,162.0,0.8775217550281932,ResNet18,SimCLR,Self-Supervised,VVS
+86,layer4.1.relu.position4x3,68.31733529795032,138.0,0.927650289261328,ResNet18,SimCLR,Self-Supervised,VVS
+87,layer4.1.relu.position4x4,80.66443144327978,158.0,0.8869595425949427,ResNet18,SimCLR,Self-Supervised,VVS
+88,layer4.1.relu.position4x5,91.33717822265334,177.0,0.8519307010121656,ResNet18,SimCLR,Self-Supervised,VVS
+89,layer4.1.relu.position4x6,68.00593908437557,139.0,1.0125123598018622,ResNet18,SimCLR,Self-Supervised,VVS
+90,layer4.1.relu.position5x0,68.56307954638969,137.0,1.029352445650798,ResNet18,SimCLR,Self-Supervised,VVS
+91,layer4.1.relu.position5x1,98.9895983808016,177.0,1.0164799753222888,ResNet18,SimCLR,Self-Supervised,VVS
+92,layer4.1.relu.position5x2,84.51917799819837,168.0,0.8589407518856711,ResNet18,SimCLR,Self-Supervised,VVS
+93,layer4.1.relu.position5x3,83.67784249132575,164.0,0.8741600503202656,ResNet18,SimCLR,Self-Supervised,VVS
+94,layer4.1.relu.position5x4,86.39729014079295,169.0,0.8534516609264412,ResNet18,SimCLR,Self-Supervised,VVS
+95,layer4.1.relu.position5x5,96.45574634389064,178.0,0.9273245392626992,ResNet18,SimCLR,Self-Supervised,VVS
+96,layer4.1.relu.position5x6,67.82456382537575,135.0,1.5268882204319838,ResNet18,SimCLR,Self-Supervised,VVS
+97,layer4.1.relu.position6x0,57.19915897692979,104.0,1.5040339037685193,ResNet18,SimCLR,Self-Supervised,VVS
+98,layer4.1.relu.position6x1,74.83018154332447,141.0,1.403325725190656,ResNet18,SimCLR,Self-Supervised,VVS
+99,layer4.1.relu.position6x2,71.59776964234865,141.0,0.9615763769885276,ResNet18,SimCLR,Self-Supervised,VVS
+100,layer4.1.relu.position6x3,62.29722948918239,142.0,1.0120985009099517,ResNet18,SimCLR,Self-Supervised,VVS
+101,layer4.1.relu.position6x4,72.00052221359412,143.0,0.9566187151529324,ResNet18,SimCLR,Self-Supervised,VVS
+102,layer4.1.relu.position6x5,75.98689065911891,145.0,0.9557749537182304,ResNet18,SimCLR,Self-Supervised,VVS
+103,layer4.1.relu.position6x6,57.03809987700585,103.0,1.506061746234214,ResNet18,SimCLR,Self-Supervised,VVS

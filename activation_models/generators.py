@@ -18,8 +18,10 @@ from classification_custom.model_tools import PytorchWrapper, load_preprocess_im
 from visualpriors.taskonomy_network import TASKONOMY_PRETRAINED_URLS, TaskonomyEncoder
 from functools import partial
 from utils import properties_to_id
+from activation_models.AtlasNet.model_2L_eig import EngineeredModel2L
 #from counter_example.train_imagenet import LitResnet
 
+atlasnet_layers = ['c1', 'c2']
 
 resnet18_pt_layers = [f'layer1.{i}.relu' for i in range(2)] + \
                      [f'layer2.{i}.relu' for i in range(2)] + \
@@ -34,7 +36,11 @@ resnet50_pt_layers = [f'layer1.{i}.relu' for i in range(3)] + \
 resnet18_tf_layers = [f'encode_{i}' for i in range(2, 10)]
 
 
-def get_activation_models(pytorch=True, vvs=False, taskonomy=False, pytorch_hub=False):
+def get_activation_models(pytorch=False, vvs=False, taskonomy=False, pytorch_hub=False,
+                          atlasnet=True):
+    if atlasnet:
+        for model, layers in atlas_net():
+            yield model, layers
     if pytorch:
         for model, layers in pytorch_models():
             yield model, layers
@@ -48,6 +54,11 @@ def get_activation_models(pytorch=True, vvs=False, taskonomy=False, pytorch_hub=
         for model, layers in pytorch_hub_models():
             yield model, layers
 
+def atlas_net():
+    model = EngineeredModel2L(filters_2=1000).Build()
+    identifier = properties_to_id('AtlasNet', 'default', 'Untrained', 'Engineered')
+    model = wrap_pt(model, identifier)
+    yield model, atlasnet_layers
 
 def pytorch_models():
     model = resnet18(weights=None)

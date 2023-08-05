@@ -1,0 +1,205 @@
+layer,score,score_error,architecture,task,kind,source
+layer1.0.relu,0.2978935026762039,0.0025742777156254034,ResNet18,Object Classification,Supervised,PyTorch
+layer1.1.relu,0.3091342180301843,0.0043459397302152425,ResNet18,Object Classification,Supervised,PyTorch
+layer2.0.relu,0.3683567705509993,0.0031758604054174084,ResNet18,Object Classification,Supervised,PyTorch
+layer2.1.relu,0.39971749498636777,0.0036770213239848185,ResNet18,Object Classification,Supervised,PyTorch
+layer3.0.relu,0.49509289941270146,0.0029932488570304496,ResNet18,Object Classification,Supervised,PyTorch
+layer3.1.relu,0.5039380507743978,0.0034797142533295267,ResNet18,Object Classification,Supervised,PyTorch
+layer4.0.relu,0.5159715686602885,0.0032302123340799444,ResNet18,Object Classification,Supervised,PyTorch
+layer4.1.relu,0.45604293861798056,0.003973185110501166,ResNet18,Object Classification,Supervised,PyTorch
+layer1.0.relu,0.306410707031802,0.0036855399649619483,ResNet50,Object Classification,Supervised,PyTorch
+layer1.1.relu,0.3268976967173022,0.004019839039367912,ResNet50,Object Classification,Supervised,PyTorch
+layer1.2.relu,0.33660994302093167,0.0037650762794739895,ResNet50,Object Classification,Supervised,PyTorch
+layer2.0.relu,0.3900777238546409,0.00372951899401608,ResNet50,Object Classification,Supervised,PyTorch
+layer2.1.relu,0.3903804748076999,0.0038899202459543947,ResNet50,Object Classification,Supervised,PyTorch
+layer2.2.relu,0.3907979267136898,0.003708180721155848,ResNet50,Object Classification,Supervised,PyTorch
+layer2.3.relu,0.3969379810114365,0.0035499160949580533,ResNet50,Object Classification,Supervised,PyTorch
+layer3.0.relu,0.48007901809917536,0.0050857611212343674,ResNet50,Object Classification,Supervised,PyTorch
+layer3.1.relu,0.49565516120447056,0.0038572399981543787,ResNet50,Object Classification,Supervised,PyTorch
+layer3.2.relu,0.4865164775996113,0.004285716499171722,ResNet50,Object Classification,Supervised,PyTorch
+layer3.3.relu,0.48653969011371756,0.004050713238361443,ResNet50,Object Classification,Supervised,PyTorch
+layer3.4.relu,0.48942552790205,0.004120671794968256,ResNet50,Object Classification,Supervised,PyTorch
+layer3.5.relu,0.5022347308401905,0.0036085844699571875,ResNet50,Object Classification,Supervised,PyTorch
+layer4.0.relu,0.5218980835258257,0.003777046848591085,ResNet50,Object Classification,Supervised,PyTorch
+layer4.1.relu,0.49342494934487713,0.004147622785280746,ResNet50,Object Classification,Supervised,PyTorch
+layer4.2.relu,0.4465417610449731,0.005145310337444459,ResNet50,Object Classification,Supervised,PyTorch
+features.1,0.24730968503915998,0.003094522655733456,AlexNet,Object Classification,Supervised,PyTorch
+features.4,0.37576609308211206,0.00323484322292698,AlexNet,Object Classification,Supervised,PyTorch
+features.7,0.452449404459102,0.0027121811191445962,AlexNet,Object Classification,Supervised,PyTorch
+features.9,0.47585894454057104,0.0030224476308377533,AlexNet,Object Classification,Supervised,PyTorch
+features.11,0.4729488673359855,0.00240020535802297,AlexNet,Object Classification,Supervised,PyTorch
+features.1.0.block.4,0.17555537205177074,0.0024498886787804935,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.3.0.block.4,0.3742127063329314,0.00430691863020892,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.7.0.block.4,0.428787051987336,0.003327903467611528,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.1.1.block.4,0.32187484467245786,0.004564090909227428,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.3.1.block.4,0.29398827056935634,0.003911034122001268,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.7.1.block.4,0.4281965226540671,0.003611659713224409,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.1.2.block.4,0.20663446169373562,0.00554476477439553,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.3.2.block.4,0.3591902818670489,0.003331631796176449,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.7.2.block.4,0.4105194312618759,0.0037976434704270774,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.0.block.4,0.43967827040787727,0.0029811360310887792,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.1.block.4,0.44810621072185797,0.004017949627763682,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.2.block.4,0.4654581361188566,0.004020208417857961,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.3.block.4,0.4392405948162907,0.002946671569819866,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.4.block.4,0.4653790444814669,0.004796748639013553,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.5.block.4,0.4697352428597824,0.0040980785358201025,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.6.block.4,0.4536304264099583,0.0038570067330959143,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.7.block.4,0.409003786445392,0.004821446820966866,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+features.5.8.block.4,0.420865412182161,0.00450541301755627,ConvNeXt_Tiny,Object Classification,Supervised,PyTorch
+layers.8.0.layers.5,0.24293627782532415,0.00404518396043,MNASNet13,Object Classification,Supervised,PyTorch
+layers.8.1.layers.5,0.2635074762423635,0.0042780675547275625,MNASNet13,Object Classification,Supervised,PyTorch
+layers.8.2.layers.5,0.28127218062927745,0.004029096072277669,MNASNet13,Object Classification,Supervised,PyTorch
+layers.9.0.layers.5,0.35732497528075163,0.003129193167865431,MNASNet13,Object Classification,Supervised,PyTorch
+layers.9.1.layers.5,0.36211002618664256,0.003725820946122163,MNASNet13,Object Classification,Supervised,PyTorch
+layers.9.2.layers.5,0.3418003748169833,0.0035226331525306585,MNASNet13,Object Classification,Supervised,PyTorch
+layers.10.0.layers.5,0.45159226959070037,0.004403571942108048,MNASNet13,Object Classification,Supervised,PyTorch
+layers.10.1.layers.5,0.4685919152422501,0.003485201545898621,MNASNet13,Object Classification,Supervised,PyTorch
+layers.10.2.layers.5,0.4574740075691172,0.004844938876341345,MNASNet13,Object Classification,Supervised,PyTorch
+layers.11.0.layers.5,0.47242291701715505,0.0029365510175560186,MNASNet13,Object Classification,Supervised,PyTorch
+layers.11.1.layers.5,0.4487972260191447,0.0033949491817532244,MNASNet13,Object Classification,Supervised,PyTorch
+layers.12.0.layers.5,0.5372953098280114,0.0036248634266927097,MNASNet13,Object Classification,Supervised,PyTorch
+layers.12.1.layers.5,0.5249576087339669,0.0037014050278553197,MNASNet13,Object Classification,Supervised,PyTorch
+layers.12.2.layers.5,0.4664913089962617,0.005136219136028038,MNASNet13,Object Classification,Supervised,PyTorch
+layers.12.3.layers.5,0.47108620466743567,0.004400857380746522,MNASNet13,Object Classification,Supervised,PyTorch
+layers.13.0.layers.5,0.471448199755336,0.0038408957589032887,MNASNet13,Object Classification,Supervised,PyTorch
+layers.16,0.44634847255576166,0.0036253091728051926,MNASNet13,Object Classification,Supervised,PyTorch
+trunk_output.block1.block1-0.activation,0.24570348202034975,0.004162749139368887,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block2.block2-0.activation,0.35765985052320354,0.003083277501717811,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block2.block2-1.activation,0.3485206315154401,0.003353050624355778,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-0.activation,0.42781958527093494,0.002800605399726691,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-1.activation,0.4332425154893785,0.002652058622999789,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-2.activation,0.43877530369607853,0.003696156810275499,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-3.activation,0.4429822029488173,0.003687990359185193,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-4.activation,0.4495666039447454,0.003466408372787252,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-5.activation,0.460579242668311,0.0036130969539330117,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block3.block3-6.activation,0.4637326850609842,0.0031789890857862432,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-0.activation,0.5405835999984783,0.004207207191199643,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-1.activation,0.5331728790586381,0.004560930911453925,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-2.activation,0.5248931399600304,0.00438400915691672,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-3.activation,0.5194929022385064,0.004014657078697616,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-4.activation,0.517730585491032,0.004106506058062138,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-5.activation,0.5178743037048297,0.0037284280096085607,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-6.activation,0.5165768843385287,0.0037748879283849655,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-7.activation,0.5149951095522632,0.0033030289999041295,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-8.activation,0.5101662861761195,0.0036520510675055904,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-9.activation,0.4985577547988166,0.004639808064545816,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-10.activation,0.48758005339951077,0.004000769034077659,RegNet400mf,Obj.Class.,Sprvsd,Py
+trunk_output.block4.block4-11.activation,0.4743288642673579,0.0034259893651058474,RegNet400mf,Obj.Class.,Sprvsd,Py
+layer1.0.relu,0.3080721814204183,0.0033501280333321994,ResNeXt50,Object Classification,Supervised,PyTorch
+layer1.1.relu,0.3306524719848555,0.003684981855266108,ResNeXt50,Object Classification,Supervised,PyTorch
+layer1.2.relu,0.32443576769044347,0.004095080928891934,ResNeXt50,Object Classification,Supervised,PyTorch
+layer2.0.relu,0.39465498296119367,0.004635564606073972,ResNeXt50,Object Classification,Supervised,PyTorch
+layer2.1.relu,0.4006319442213285,0.0037733967876999045,ResNeXt50,Object Classification,Supervised,PyTorch
+layer2.2.relu,0.40443632206532565,0.0038506229046147205,ResNeXt50,Object Classification,Supervised,PyTorch
+layer2.3.relu,0.4128353380583782,0.0029509345538371724,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.0.relu,0.48963895377957445,0.0042377898589521235,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.1.relu,0.5006736783544103,0.003845529832028776,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.2.relu,0.5018125194348321,0.003844971902136514,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.3.relu,0.49494263967579954,0.003943951369180096,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.4.relu,0.4992498308036629,0.0039522710526891216,ResNeXt50,Object Classification,Supervised,PyTorch
+layer3.5.relu,0.5106438197898889,0.0038500517542038107,ResNeXt50,Object Classification,Supervised,PyTorch
+layer4.0.relu,0.5035556560762672,0.0035150623098814783,ResNeXt50,Object Classification,Supervised,PyTorch
+layer4.1.relu,0.4741817947727871,0.0033402267131365715,ResNeXt50,Object Classification,Supervised,PyTorch
+layer4.2.relu,0.43277942646517076,0.002898898265069976,ResNeXt50,Object Classification,Supervised,PyTorch
+layer1.0.relu,0.20768459599559844,0.0038174959600737702,ResNet18,None,Untrained,PyTorch
+layer1.1.relu,0.21325512290572604,0.004423956238987009,ResNet18,None,Untrained,PyTorch
+layer2.0.relu,0.21506751293789736,0.005219744030556253,ResNet18,None,Untrained,PyTorch
+layer2.1.relu,0.217050036038759,0.0048059463431051296,ResNet18,None,Untrained,PyTorch
+layer3.0.relu,0.22373877206091633,0.004186833363545263,ResNet18,None,Untrained,PyTorch
+layer3.1.relu,0.2334095670934702,0.005060736871787309,ResNet18,None,Untrained,PyTorch
+layer4.0.relu,0.2353601807279753,0.005071275054133475,ResNet18,None,Untrained,PyTorch
+layer4.1.relu,0.23399607981422474,0.0037574656947704636,ResNet18,None,Untrained,PyTorch
+layer1.0.relu,0.2144695925878775,0.004564615248952882,ResNet50,None,Untrained,PyTorch
+layer1.1.relu,0.21865648358998221,0.004577558293704754,ResNet50,None,Untrained,PyTorch
+layer1.2.relu,0.21422135195921366,0.004334262233130699,ResNet50,None,Untrained,PyTorch
+layer2.0.relu,0.2141153851870231,0.003970984606272034,ResNet50,None,Untrained,PyTorch
+layer2.1.relu,0.20972043474202368,0.004341157252651224,ResNet50,None,Untrained,PyTorch
+layer2.2.relu,0.21254980221101208,0.0038431450285360503,ResNet50,None,Untrained,PyTorch
+layer2.3.relu,0.2109132982642698,0.003687874722293519,ResNet50,None,Untrained,PyTorch
+layer3.0.relu,0.20395990602875647,0.002858032366987149,ResNet50,None,Untrained,PyTorch
+layer3.1.relu,0.21093143281240995,0.0033495719509469783,ResNet50,None,Untrained,PyTorch
+layer3.2.relu,0.20173358464934735,0.00363324914375645,ResNet50,None,Untrained,PyTorch
+layer3.3.relu,0.20227314840483326,0.00328953949607867,ResNet50,None,Untrained,PyTorch
+layer3.4.relu,0.1974244166995371,0.0031364849451120174,ResNet50,None,Untrained,PyTorch
+layer3.5.relu,0.2010515601067551,0.0028358933735731814,ResNet50,None,Untrained,PyTorch
+layer4.0.relu,0.2035948981758423,0.0036165342163252605,ResNet50,None,Untrained,PyTorch
+layer4.1.relu,0.20158821223286325,0.004110695044732527,ResNet50,None,Untrained,PyTorch
+layer4.2.relu,0.1988834509871076,0.004295091351021228,ResNet50,None,Untrained,PyTorch
+features.1,0.16979289458074054,0.003642119577978316,AlexNet,None,Untrained,PyTorch
+features.4,0.24497629638389387,0.004215695383936157,AlexNet,None,Untrained,PyTorch
+features.7,0.2870426856747527,0.0030346468837134967,AlexNet,None,Untrained,PyTorch
+features.9,0.2888013489203724,0.003276281730941778,AlexNet,None,Untrained,PyTorch
+features.11,0.29259245584579396,0.003193377899487276,AlexNet,None,Untrained,PyTorch
+features.1.0.block.4,0.12440672827421208,0.005372682070253762,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.3.0.block.4,0.12288704173219261,0.005361260320485719,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.7.0.block.4,0.12256321596095908,0.004569891533199147,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.1.1.block.4,0.10228181211730576,0.0044411557497810875,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.3.1.block.4,0.12929881093766937,0.005827559675952027,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.7.1.block.4,0.12682295825720286,0.005203870179097513,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.1.2.block.4,0.11006108298807712,0.004631692202394119,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.3.2.block.4,0.12160722933902507,0.00540676904942954,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.7.2.block.4,0.12772511786314905,0.005062716993721174,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.0.block.4,0.12876670710273194,0.005940963177868528,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.1.block.4,0.12572254613241338,0.005549477244390745,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.2.block.4,0.124167026503185,0.005371192130516413,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.3.block.4,0.12316388478406298,0.0055846457209294716,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.4.block.4,0.12329239303725892,0.005428228663300482,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.5.block.4,0.12517264095836864,0.005433495320689058,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.6.block.4,0.12270366176338802,0.005135834707028508,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.7.block.4,0.12459898975590522,0.005702163917078923,ConvNeXt_Tiny,None,Untrained,PyTorch
+features.5.8.block.4,0.12588190967266102,0.005036563618930208,ConvNeXt_Tiny,None,Untrained,PyTorch
+layers.8.0.layers.5,0.16625430129648808,0.004844221028982685,MNASNet13,None,Untrained,PyTorch
+layers.8.1.layers.5,0.17172513926603997,0.004473384473575111,MNASNet13,None,Untrained,PyTorch
+layers.8.2.layers.5,0.17389021374339783,0.004740979996780235,MNASNet13,None,Untrained,PyTorch
+layers.9.0.layers.5,0.1877504025081564,0.004601491615023513,MNASNet13,None,Untrained,PyTorch
+layers.9.1.layers.5,0.2125029440924766,0.003670255757915585,MNASNet13,None,Untrained,PyTorch
+layers.9.2.layers.5,0.2144230361331923,0.004547374825011083,MNASNet13,None,Untrained,PyTorch
+layers.10.0.layers.5,0.21073746015912423,0.005596112075135047,MNASNet13,None,Untrained,PyTorch
+layers.10.1.layers.5,0.22589347186077016,0.005341733878407308,MNASNet13,None,Untrained,PyTorch
+layers.10.2.layers.5,0.23010903165804206,0.004906774714765861,MNASNet13,None,Untrained,PyTorch
+layers.11.0.layers.5,0.22559789050667184,0.005457005917375433,MNASNet13,None,Untrained,PyTorch
+layers.11.1.layers.5,0.22514845072535825,0.004719382950413763,MNASNet13,None,Untrained,PyTorch
+layers.12.0.layers.5,0.21294847139359338,0.004024096438392021,MNASNet13,None,Untrained,PyTorch
+layers.12.1.layers.5,0.20813492123809177,0.00421182236701516,MNASNet13,None,Untrained,PyTorch
+layers.12.2.layers.5,0.20275662602116112,0.004621784986947003,MNASNet13,None,Untrained,PyTorch
+layers.12.3.layers.5,0.21005952097016936,0.005520272308120615,MNASNet13,None,Untrained,PyTorch
+layers.13.0.layers.5,0.20382742000867168,0.004865942473998058,MNASNet13,None,Untrained,PyTorch
+layers.16,0.20119272070457225,0.005156672327362728,MNASNet13,None,Untrained,PyTorch
+trunk_output.block1.block1-0.activation,0.15044278830613178,0.004719790786545214,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block2.block2-0.activation,0.15379838971179532,0.005269103314872461,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block2.block2-1.activation,0.14991689145142734,0.004788369068412532,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-0.activation,0.155619069035039,0.0046237615925037116,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-1.activation,0.15675860891930124,0.004287286603106151,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-2.activation,0.15761307524884988,0.00433758303656444,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-3.activation,0.1596435401330057,0.0043207399200707345,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-4.activation,0.16509125351538215,0.003983803684043736,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-5.activation,0.1648919739720988,0.003955176980417514,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block3.block3-6.activation,0.1653349168524097,0.004406927456861752,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-0.activation,0.1617566244508563,0.004359230891091044,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-1.activation,0.16288895218726077,0.0045176387741953,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-2.activation,0.16190527811831787,0.004423319644400834,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-3.activation,0.16215129269024003,0.005180633354794876,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-4.activation,0.16145927400026586,0.0046273082708237065,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-5.activation,0.16148540083426333,0.0047615642059304466,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-6.activation,0.162986392247942,0.004780444170726924,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-7.activation,0.16137748982772263,0.004607646870521363,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-8.activation,0.1602703853352904,0.004156940211810286,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-9.activation,0.16055115112893356,0.004397705019776269,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-10.activation,0.16133494420153413,0.004328789767078878,RegNet_400mf,None,Untrained,PyTorch
+trunk_output.block4.block4-11.activation,0.16134476903339412,0.004540945948821926,RegNet_400mf,None,Untrained,PyTorch
+layer1.0.relu,0.212618470526116,0.004776137821016242,ResNeXt50,None,Untrained,PyTorch
+layer1.1.relu,0.21243104450489406,0.00529572157257124,ResNeXt50,None,Untrained,PyTorch
+layer1.2.relu,0.21217259281124629,0.004986382812136618,ResNeXt50,None,Untrained,PyTorch
+layer2.0.relu,0.21380194081084503,0.0050714379428602775,ResNeXt50,None,Untrained,PyTorch
+layer2.1.relu,0.2137954059539335,0.00498802627582549,ResNeXt50,None,Untrained,PyTorch
+layer2.2.relu,0.21438183261837793,0.004445841204486221,ResNeXt50,None,Untrained,PyTorch
+layer2.3.relu,0.21508504862389063,0.004769436526822763,ResNeXt50,None,Untrained,PyTorch
+layer3.0.relu,0.21374701392844817,0.004351402913297335,ResNeXt50,None,Untrained,PyTorch
+layer3.1.relu,0.21443572657303311,0.004196917849355733,ResNeXt50,None,Untrained,PyTorch
+layer3.2.relu,0.2135822584868455,0.004173044365648027,ResNeXt50,None,Untrained,PyTorch
+layer3.3.relu,0.21473810246695327,0.00406148600025483,ResNeXt50,None,Untrained,PyTorch
+layer3.4.relu,0.21596153861527034,0.003914130411412042,ResNeXt50,None,Untrained,PyTorch
+layer3.5.relu,0.2167627842927882,0.0039905684102888575,ResNeXt50,None,Untrained,PyTorch
+layer4.0.relu,0.18688151128976824,0.0036477172045193177,ResNeXt50,None,Untrained,PyTorch
+layer4.1.relu,0.18597679072893017,0.0036500979875451413,ResNeXt50,None,Untrained,PyTorch
+layer4.2.relu,0.18680245762333028,0.0036092416585193675,ResNeXt50,None,Untrained,PyTorch

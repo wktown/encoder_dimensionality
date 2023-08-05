@@ -1,0 +1,19 @@
+layer,effective dimensionality,80% variance,alpha,architecture,task,kind,source
+c2,2.0697998421189916,13.0,1.0863178412113579,AtlasNet,SVD-scaled_-0.2,Untrained,PyTorch
+mp2,2.0697998421189916,13.0,1.0863178412113579,AtlasNet,SVD-scaled_-0.2,Untrained,PyTorch
+c2,2.123501379493913,15.0,1.0882446385633486,AtlasNet,SVD-scaled_-0.4,Untrained,PyTorch
+mp2,2.123501379493913,15.0,1.0882446385633486,AtlasNet,SVD-scaled_-0.4,Untrained,PyTorch
+c2,2.072608100387197,12.0,1.0898962111672856,AtlasNet,SVD-scaled_-0.6,Untrained,PyTorch
+mp2,2.072608100387197,12.0,1.0898962111672856,AtlasNet,SVD-scaled_-0.6,Untrained,PyTorch
+c2,2.0795981206734324,13.0,1.091917039961466,AtlasNet,SVD-scaled_-0.8,Untrained,PyTorch
+mp2,2.0795981206734324,13.0,1.091917039961466,AtlasNet,SVD-scaled_-0.8,Untrained,PyTorch
+c2,2.0347603350888184,8.0,1.114582081164886,AtlasNet,SVD-scaled_-1.0,Untrained,PyTorch
+mp2,2.0347603350888184,8.0,1.114582081164886,AtlasNet,SVD-scaled_-1.0,Untrained,PyTorch
+c2,1.997154071584658,6.0,1.1433489478885668,AtlasNet,SVD-scaled_-1.2,Untrained,PyTorch
+mp2,1.997154071584658,6.0,1.1433489478885668,AtlasNet,SVD-scaled_-1.2,Untrained,PyTorch
+c2,1.9834307902816246,6.0,1.171136314584233,AtlasNet,SVD-scaled_-1.4,Untrained,PyTorch
+mp2,1.9834307902816246,6.0,1.171136314584233,AtlasNet,SVD-scaled_-1.4,Untrained,PyTorch
+c2,1.5405700623389125,2.0,2.019603401838501,AtlasNet,SVD-scaled_-3.6,Untrained,PyTorch
+mp2,1.5405700623389125,2.0,2.019603401838501,AtlasNet,SVD-scaled_-3.6,Untrained,PyTorch
+c2,1.7154477856529586,2.0,1.7922602529621585,AtlasNet,SVD-scaled_-3,Untrained,PyTorch
+mp2,1.7154477856529586,2.0,1.7922602529621585,AtlasNet,SVD-scaled_-3,Untrained,PyTorch

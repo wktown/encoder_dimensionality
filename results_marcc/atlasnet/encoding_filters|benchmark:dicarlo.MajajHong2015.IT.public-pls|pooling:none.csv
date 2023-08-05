@@ -1,0 +1,7 @@
+,layer,score,score_error,architecture,task,kind,source
+0,c2,0.168301803616931,0.0041354655381678,AtlasNet,nf_10,Untrained,PyTorch
+1,mp2,0.1825416916285132,0.0050328941614789,AtlasNet,nf_10,Untrained,PyTorch
+2,c2,0.1885396230713049,0.0040577534526049,AtlasNet,nf_1000,Untrained,PyTorch
+3,mp2,0.2462699963933484,0.0033881294708959,AtlasNet,nf_1000,Untrained,PyTorch
+0,c2,0.1889493313438246,0.0042376298838797,AtlasNet,nf_10000,Untrained,PyTorch
+1,mp2,0.2462272944857141,0.0042667068560893,AtlasNet,nf_10000,Untrained,PyTorch

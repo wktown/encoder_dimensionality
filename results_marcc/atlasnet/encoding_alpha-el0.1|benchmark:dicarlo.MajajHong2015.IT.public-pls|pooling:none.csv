@@ -1,0 +1,9 @@
+,layer,score,score_error,architecture,task,kind,source
+0,c2,0.1878757323256289,0.0043599729527245,AtlasNet,alpha-0.5_0.1,Untrained,PyTorch
+1,mp2,0.2336598168116265,0.004557494507063,AtlasNet,alpha-0.5_0.1,Untrained,PyTorch
+2,c2,0.1809052147100869,0.0053315073082788,AtlasNet,alpha-1_0.1,Untrained,PyTorch
+3,mp2,0.2185343637041753,0.0056504590096966,AtlasNet,alpha-1_0.1,Untrained,PyTorch
+4,c2,0.1301634700012222,0.0050333376514923,AtlasNet,alpha-2_0.1,Untrained,PyTorch
+5,mp2,0.1536984935794565,0.0047025350790007,AtlasNet,alpha-2_0.1,Untrained,PyTorch
+6,c2,0.1097333548062822,0.0056509176007969,AtlasNet,alpha-3_0.1,Untrained,PyTorch
+7,mp2,0.1147369178138209,0.0050624141234495,AtlasNet,alpha-3_0.1,Untrained,PyTorch

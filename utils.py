@@ -20,6 +20,14 @@ def properties_to_id(architecture, task, kind, source):
 def id_to_properties(identifier):
     identifier = identifier.split(',')[0]
     properties = identifier.split('|')[:4]
+    #p_dict = {}
+    #for p in properties:
+    #    p_split = p.split(':')
+    #    if len(p_split) == 3:
+    #        val = p_split[1]+':'+p_split[2]
+    #        p_dict[p_split[0]] = val
+    #    else:
+    #        p_dict[p_split[0]] = p_split[1]
     properties = {p.split(':')[0]: p.split(':')[1] for p in properties}
     return properties
 

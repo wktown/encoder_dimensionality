@@ -1,0 +1,5 @@
+layer,score,score_error,architecture,task,kind,source
+c2,0.1537108715559257,0.005723009933636782,AtlasNet,Eig_-0.5,Untrained,PyTorch
+c2,0.15711640860591666,0.005799064989325342,AtlasNet,Eig_-1,Untrained,PyTorch
+c2,0.12928283633403198,0.004172463947722319,AtlasNet,Eig_-2,Untrained,PyTorch
+c2,0.10649821478819561,0.0045059252226273645,AtlasNet,Eig_-3,Untrained,PyTorch

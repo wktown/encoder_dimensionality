@@ -24,7 +24,9 @@ class GlobalMaxPool2d:
             if activations.ndim != 4:
                 return activations
             activations = torch.from_numpy(activations)
+            print(torch.Size(activations),'pre-pooling')
             activations = F.adaptive_max_pool2d(activations, 1)
+            print(torch.Size(activations),'post-pooling')
             activations = activations.numpy()
             return activations
 

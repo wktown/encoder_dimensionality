@@ -6,8 +6,11 @@ dependencies:
     - git+https://github.com/brain-score/brain-score
     - git+https://github.com/brain-score/model-tools
     - git+https://github.com/wktown/candidate_models
-    - git+https://github.com/BonnerLab/bonnerlab-brainscore
+    #- git+https://github.com/BonnerLab/bonnerlab-brainscore #not needed in future (only for object2vec, not majaj)
     - jupyterlab
+    - git+https://github.com/wktown/unsup_vvs.git
+    #- git+https://github.com/alexsax/visual-prior.git #in .py file of home directory
+    - umap-learn
 
 variables:
   TORCH_HOME: "/data/shared/torch"
