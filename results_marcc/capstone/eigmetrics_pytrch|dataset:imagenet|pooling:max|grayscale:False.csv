@@ -1,0 +1,27 @@
+layer,effective dimensionality,80% variance,alpha,architecture,task,kind,source
+features.1,5.896749690820191,14.0,1.3271831175117983,AlexNet,Object Classification,Supervised,PyTorch
+features.4,11.668145410078536,47.0,1.090286742412809,AlexNet,Object Classification,Supervised,PyTorch
+features.7,23.01262967568659,119.0,0.979329854786758,AlexNet,Object Classification,Supervised,PyTorch
+features.9,23.31345377684324,93.0,0.9572789755067244,AlexNet,Object Classification,Supervised,PyTorch
+features.11,36.62800116829519,74.0,0.9480513683998466,AlexNet,Object Classification,Supervised,PyTorch
+layer1.0.relu,5.896697846597421,15.0,1.2751644198844068,ResNet18,Object Classification,Supervised,PyTorch
+layer1.1.relu,7.0759027310900064,22.0,1.1397395974222355,ResNet18,Object Classification,Supervised,PyTorch
+layer2.0.relu,16.726296957728792,41.0,1.0130800288996995,ResNet18,Object Classification,Supervised,PyTorch
+layer2.1.relu,20.812759456242045,47.0,0.9340028266460644,ResNet18,Object Classification,Supervised,PyTorch
+layer3.0.relu,28.664484381427105,71.0,1.009502271492878,ResNet18,Object Classification,Supervised,PyTorch
+layer3.1.relu,29.971854423884366,82.0,0.9664085751212076,ResNet18,Object Classification,Supervised,PyTorch
+layer4.0.relu,70.31869193246087,184.0,0.8618975266169084,ResNet18,Object Classification,Supervised,PyTorch
+layer4.1.relu,126.93299334729588,156.0,0.7413425474179447,ResNet18,Object Classification,Supervised,PyTorch
+features.1,5.896749690820191,14.0,1.3271831175117983,AlexNet,Object Classification,Supervised,PyTorch
+features.4,11.668145410078536,47.0,1.090286742412809,AlexNet,Object Classification,Supervised,PyTorch
+features.7,23.01262967568659,119.0,0.979329854786758,AlexNet,Object Classification,Supervised,PyTorch
+features.9,23.31345377684324,93.0,0.9572789755067244,AlexNet,Object Classification,Supervised,PyTorch
+features.11,36.62800116829519,74.0,0.9480513683998466,AlexNet,Object Classification,Supervised,PyTorch
+layer1.0.relu,5.896697846597421,15.0,1.2751644198844068,ResNet18,Object Classification,Supervised,PyTorch
+layer1.1.relu,7.0759027310900064,22.0,1.1397395974222355,ResNet18,Object Classification,Supervised,PyTorch
+layer2.0.relu,16.726296957728792,41.0,1.0130800288996995,ResNet18,Object Classification,Supervised,PyTorch
+layer2.1.relu,20.812759456242045,47.0,0.9340028266460644,ResNet18,Object Classification,Supervised,PyTorch
+layer3.0.relu,28.664484381427105,71.0,1.009502271492878,ResNet18,Object Classification,Supervised,PyTorch
+layer3.1.relu,29.971854423884366,82.0,0.9664085751212076,ResNet18,Object Classification,Supervised,PyTorch
+layer4.0.relu,70.31869193246087,184.0,0.8618975266169084,ResNet18,Object Classification,Supervised,PyTorch
+layer4.1.relu,126.93299334729588,156.0,0.7413425474179447,ResNet18,Object Classification,Supervised,PyTorch

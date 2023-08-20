@@ -80,22 +80,24 @@ class EngineeredModel2L:
     """
     
     def __init__(self, curv_params = {'n_ories':8,'n_curves':3,'gau_sizes':(5,),'spatial_fre':[1.2]},
-                 filters_2=5000,batches_2=1, k_size=9):
+                 filters_2=5000, k_size=9, seed=0, batches_2=1):
     
         
         self.curv_params = curv_params
         self.filters_1 = self.curv_params['n_ories']*self.curv_params['n_curves']*len(self.curv_params['gau_sizes']*len(self.curv_params['spatial_fre']))
         self.filters_2 = filters_2
         self.batches_2 = batches_2
+        self.k_size = k_size
+        self.seed = seed
         
-    
-    
-    
+        
     def Build(self):
+        
+        torch.manual_seed(seed=self.seed)
     
         c1 = StandardConvolution(filter_size=15,filter_type='curvature',curv_params=self.curv_params)     
         mp1 = nn.MaxPool2d(kernel_size=3)
-        c2 = nn.Conv2d(24, self.filters_2, kernel_size=(9, 9), device='cuda')
+        c2 = nn.Conv2d(24, self.filters_2, kernel_size=(self.k_size, self.k_size), device='cuda')
         mp2 = nn.MaxPool2d(kernel_size=2)
 
         last = Output()

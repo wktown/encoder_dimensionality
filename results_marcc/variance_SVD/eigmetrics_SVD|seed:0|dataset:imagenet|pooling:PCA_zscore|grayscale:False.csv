@@ -1,0 +1,13 @@
+layer,effective dimensionality,80% variance,alpha,architecture,task,kind,source
+c2,73.33136071927468,284.0,0.9223573749238195,AtlasNet_seed=0,SVD_scaled=True,a_-0.2,pcs_1000
+c2,73.32989524858009,284.0,0.9231407653154587,AtlasNet_seed=0,SVD_scaled=False,a_-0.2,pcs_1000
+c2,81.87203787515581,288.0,0.9087458402933714,AtlasNet_seed=0,SVD_scaled=True,a_-0.6,pcs_1000
+c2,81.86993254211973,288.0,0.9081662647861284,AtlasNet_seed=0,SVD_scaled=False,a_-0.6,pcs_1000
+c2,101.38234091725161,292.0,0.8990315488877041,AtlasNet_seed=0,SVD_scaled=True,a_-1.0,pcs_1000
+c2,100.5615753688782,291.0,0.8986922318442476,AtlasNet_seed=0,SVD_scaled=False,a_-1.0,pcs_1000
+c2,116.42587220529525,290.0,0.9035347991188026,AtlasNet_seed=0,SVD_scaled=True,a_-1.4,pcs_1000
+c2,115.18603376854301,287.0,0.9067181646074606,AtlasNet_seed=0,SVD_scaled=False,a_-1.4,pcs_1000
+c2,118.03870796549698,279.0,0.9247710541392095,AtlasNet_seed=0,SVD_scaled=True,a_-2,pcs_1000
+c2,115.66184909059714,272.0,0.9333688065701538,AtlasNet_seed=0,SVD_scaled=False,a_-2,pcs_1000
+c2,111.87768110920089,258.0,0.9475810971263183,AtlasNet_seed=0,SVD_scaled=True,a_-3,pcs_1000
+c2,108.482294374385,248.0,0.962783980200642,AtlasNet_seed=0,SVD_scaled=False,a_-3,pcs_1000

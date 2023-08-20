@@ -1,0 +1,27 @@
+layer,score,score_error,architecture,task,kind,source
+features.1,0.2473096850391599,0.0030945226557334,AlexNet,Object Classification,Supervised,PyTorch
+features.4,0.375766093082112,0.0032348432229269,AlexNet,Object Classification,Supervised,PyTorch
+features.7,0.452449404459102,0.0027121811191445,AlexNet,Object Classification,Supervised,PyTorch
+features.9,0.475858944540571,0.0030224476308377,AlexNet,Object Classification,Supervised,PyTorch
+features.11,0.4729488673359855,0.0024002053580229,AlexNet,Object Classification,Supervised,PyTorch
+features.1,0.1697928945807405,0.0036421195779783,AlexNet,None,Untrained,PyTorch
+features.4,0.2449762963838938,0.0042156953839361,AlexNet,None,Untrained,PyTorch
+features.7,0.2870426856747527,0.0030346468837134,AlexNet,None,Untrained,PyTorch
+features.9,0.2888013489203724,0.0032762817309417,AlexNet,None,Untrained,PyTorch
+features.11,0.2925924558457939,0.0031933778994872,AlexNet,None,Untrained,PyTorch
+layer1.0.relu,0.2978935026762039,0.0025742777156254,ResNet18,Object Classification,Supervised,PyTorch
+layer1.1.relu,0.3091342180301843,0.0043459397302152,ResNet18,Object Classification,Supervised,PyTorch
+layer2.0.relu,0.3683567705509993,0.0031758604054174,ResNet18,Object Classification,Supervised,PyTorch
+layer2.1.relu,0.3997174949863677,0.0036770213239848,ResNet18,Object Classification,Supervised,PyTorch
+layer3.0.relu,0.4950928994127014,0.0029932488570304,ResNet18,Object Classification,Supervised,PyTorch
+layer3.1.relu,0.5039380507743978,0.0034797142533295,ResNet18,Object Classification,Supervised,PyTorch
+layer4.0.relu,0.5159715686602885,0.0032302123340799,ResNet18,Object Classification,Supervised,PyTorch
+layer4.1.relu,0.4560429386179805,0.0039731851105011,ResNet18,Object Classification,Supervised,PyTorch
+layer1.0.relu,0.2076845959955984,0.0038174959600737,ResNet18,None,Untrained,PyTorch
+layer1.1.relu,0.213255122905726,0.004423956238987,ResNet18,None,Untrained,PyTorch
+layer2.0.relu,0.2150675129378973,0.0052197440305562,ResNet18,None,Untrained,PyTorch
+layer2.1.relu,0.217050036038759,0.0048059463431051,ResNet18,None,Untrained,PyTorch
+layer3.0.relu,0.2237387720609163,0.0041868333635452,ResNet18,None,Untrained,PyTorch
+layer3.1.relu,0.2334095670934702,0.0050607368717873,ResNet18,None,Untrained,PyTorch
+layer4.0.relu,0.2353601807279753,0.0050712750541334,ResNet18,None,Untrained,PyTorch
+layer4.1.relu,0.2339960798142247,0.0037574656947704,ResNet18,None,Untrained,PyTorch

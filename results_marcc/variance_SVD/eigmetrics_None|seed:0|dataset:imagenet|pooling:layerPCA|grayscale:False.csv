@@ -1,0 +1,2 @@
+layer,effective dimensionality,80% variance,alpha,architecture,task,kind,source
+c2,52.791509898521575,264.0,0.962443507673933,AtlasNet_seed=0,Standard,a_NA,pcs_1000

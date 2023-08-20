@@ -63,7 +63,7 @@ class Model(nn.Module):
         return x 
     
     
-class EngineeredModel2L:
+class EngineeredModel2L_Eig:
     
     """
     Used to Initialize the Engineered Model
@@ -81,48 +81,59 @@ class EngineeredModel2L:
     """
     
     def __init__(self, curv_params = {'n_ories':8,'n_curves':3,'gau_sizes':(5,),'spatial_fre':[1.2]},
-                 filters_2=5000,batches_2=1, k_size=9):
+                 filters_2=5000, k_size=9, exponent=-1, var_scale=1, dist_stdev=1.0, seed=0, batches_2=1):
         
         self.curv_params = curv_params
         self.filters_1 = self.curv_params['n_ories']*self.curv_params['n_curves']*len(self.curv_params['gau_sizes']*len(self.curv_params['spatial_fre']))
         self.filters_2 = filters_2
         self.batches_2 = batches_2
         self.k_size = k_size
+        self.exponent = exponent
+        self.var_scale = var_scale
+        self.dist_stdev = dist_stdev
+        self.seed = seed
+        
     
     
     def Build(self):
+        
+        torch.manual_seed(seed=self.seed)
+        np.random.seed(seed=self.seed)
     
         c1 = StandardConvolution(filter_size=15,filter_type='curvature',curv_params=self.curv_params)     
         mp1 = nn.MaxPool2d(kernel_size=3)
         c2 = nn.Conv2d(24, self.filters_2, kernel_size=(self.k_size, self.k_size), device='cuda')
+        
         with torch.no_grad():
             in_size = c2.weight.shape[1]
             c2_w = c2.weight.reshape(self.filters_2, self.k_size*self.k_size*in_size)
-            
-            np.random.seed(seed=0)
 
             # Set parameters
-            num_filters = c2_w.shape[0]
-            num_samples = c2_w.shape[-1]
+            num_channels = c2_w.shape[0]
+            num_elements = c2_w.shape[-1]
             #num_samples = 5000  # Number of samples
             #num_features = 1000  # Number of features
-            power_law_exponent = -1  # Exponent of power law decay
-            variance_scale = 1  # Scaling factor for eigenvectors' variances
-
+            power_law_exponent = self.exponent  # Exponent of power law decay
+            variance_scale = self.var_scale  # Scaling factor for eigenvectors' variances
+            
             # Generate principal components
-            eigenvalues = np.power(np.arange(1, num_filters+1, dtype=float), power_law_exponent)
-            eigenvectors = np.random.randn(num_filters, num_filters)
+            eigenvalues = np.power(np.arange(1, num_elements+1, dtype=float), power_law_exponent)
+            eigenvectors = np.random.randn(num_elements, num_elements)
             eigenvectors = eigenvectors / np.sqrt(np.sum(np.square(eigenvectors), axis=0))  # Normalize columns
 
             # Scale eigenvectors' variances
             eigenvectors = eigenvectors * np.sqrt(eigenvalues)[np.newaxis, :] * variance_scale
 
             # Generate random data
-            X = np.random.randn(num_samples, num_filters) @ eigenvectors
+            X = np.random.normal(loc=0.0, scale=self.dist_stdev, size=(num_channels, num_elements)) @ eigenvectors #scale was for analysese 0.1
+            
+            c2_w = torch.tensor(X, dtype=torch.float32).reshape(self.filters_2, in_size, self.k_size, self.k_size)
+            c2.weight = torch.nn.Parameter(data= c2_w)
+            
             c2_w = torch.tensor(np.transpose(X)).reshape(self.filters_2, in_size, self.k_size, self.k_size)
             c2.weight = torch.nn.Parameter(data= c2_w)
             
-            # *bias is not the same eigenspectrum (?) *
+            print(power_law_exponent)
             
         mp2 = nn.MaxPool2d(kernel_size=2)
 
